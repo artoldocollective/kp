@@ -3,7 +3,7 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>Kurze&Pos – Libri di poesia</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Kurze&Pos pubblica poesia internazionale in italiano, inglese e tedesco, con autori come Sara Ferro W., e libri d’arte multimediali, celebrando cultura alternativa, creatività indipendente e innovazione, in sintonia con lo spirito del futuro.">
 <meta name="robots" content="index, follow">
@@ -1261,7 +1261,7 @@ body.sc-search-navbar-mode #mobile-menu-toggle{
   <div id="site-search-panel"
     style="display:none;position:absolute;right:0;top:54px;width:min(340px,82vw);background:#fff;color:#111;padding:12px;border-radius:18px;box-shadow:0 12px 36px rgba(0,0,0,.25);">
     <input id="site-search-input" type="search" placeholder="Search all pages..."
-      style="width:100%;box-sizing:border-box;border:0;border-bottom:2px solid #111;padding:10px 8px;font:inherit;outline:none;">
+  style="width:100%;box-sizing:border-box;border:0;border-bottom:2px solid #111;padding:10px 8px;font:inherit;background:#fff !important;color:#111 !important;-webkit-text-fill-color:#111 !important;-webkit-appearance:none;appearance:none;outline:none;">
     <div id="site-search-results" style="max-height:300px;overflow:auto;margin-top:8px;"></div>
   </div>
 </div>
@@ -1355,9 +1355,22 @@ body.sc-search-navbar-mode #mobile-menu-toggle{
     setTimeout(function(){input.focus();},20);
   }
 
-  function closePanel(){
-    panel.style.display='none';
+function closePanel(){
+  panel.style.display='none';
+
+  var mobileMenu=document.getElementById('mobile-menu');
+  var mobileMenuToggle=document.getElementById('mobile-menu-toggle');
+
+  if(mobileMenu){
+    mobileMenu.classList.remove('show');
+    mobileMenu.setAttribute('aria-hidden','true');
   }
+
+  if(mobileMenuToggle){
+    mobileMenuToggle.classList.remove('open');
+    mobileMenuToggle.setAttribute('aria-expanded','false');
+  }
+}
 
   toggle.addEventListener('click',function(e){
     /* Search lives outside #mobile-menu, so the Mobile Menu's document-level
@@ -1418,21 +1431,24 @@ body.sc-search-navbar-mode #mobile-menu-toggle{
     hits.forEach(function(hit){
       var b=document.createElement('button');
       b.type='button';
-      b.style.cssText='display:block;width:100%;text-align:left;border:0;background:transparent;padding:10px 8px;cursor:pointer;border-radius:10px;';
+      b.style.cssText='display:block;width:100%;text-align:left;border:0;background:transparent;color:#111 !important;padding:10px 8px;cursor:pointer;border-radius:10px;';
 
       var title=document.createElement('strong');
       title.textContent=hit.pageTitle||SEARCH_PAGE_LABEL;
-      title.style.cssText='display:block;font-size:12px;margin-bottom:2px;';
+      title.style.cssText='display:block;font-size:12px;margin-bottom:2px;color:#111 !important;';
 
       var excerpt=document.createElement('span');
       excerpt.textContent=String(hit.text||'').length>110
         ? String(hit.text||'').slice(0,110)+'…'
         : String(hit.text||'');
-      excerpt.style.cssText='display:block;font-size:12px;opacity:.72;line-height:1.35;';
+      excerpt.style.cssText='display:block;font-size:12px;opacity:.72;line-height:1.35;color:#111 !important;';
 
       b.appendChild(title);
       b.appendChild(excerpt);
-      b.addEventListener('click',function(){go(hit);});
+      b.addEventListener('click',function(){
+  closePanel();
+  go(hit);
+});
       results.appendChild(b);
     });
 
