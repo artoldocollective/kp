@@ -2471,30 +2471,3 @@ body:not(.core-editor) .sc-form-section .sc-generated-form .sc-core-cta-custom:h
     text-align:center!important;
   }
 }
-
-
-
-                .core-editor #page,
-                .core-editor #page h1, .core-editor #page h2, .core-editor #page h3,
-                .core-editor #page h4, .core-editor #page h5, .core-editor #page h6,
-                .core-editor #page .live-heading,
-                .core-editor #page .live-subtitle,
-                .core-editor #page .live-paragraph,
-                .core-editor #page a.uk-button,
-                .core-editor #editor-footer,
-                .core-editor #editor-footer h1, .core-editor #editor-footer h2, .core-editor #editor-footer h3,
-                .core-editor #editor-footer h4, .core-editor #editor-footer h5, .core-editor #editor-footer h6,
-                .core-editor #editor-footer .live-heading,
-                .core-editor #editor-footer .live-subtitle,
-                .core-editor #editor-footer .live-paragraph,
-                .core-editor #editor-footer a.uk-button,
-                body:not(.core-editor),
-                body:not(.core-editor) h1, body:not(.core-editor) h2, body:not(.core-editor) h3,
-                body:not(.core-editor) h4, body:not(.core-editor) h5, body:not(.core-editor) h6,
-                body:not(.core-editor) .live-heading,
-                body:not(.core-editor) .live-subtitle,
-                body:not(.core-editor) .live-paragraph,
-                body:not(.core-editor) a.uk-button {
-                    font-family: 'Futura', sans-serif !important;
-                }
-            
