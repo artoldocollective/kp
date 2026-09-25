@@ -1,4 +1,409 @@
-<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><title>Kurze&Pos – Libri di poesia</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Kurze&Pos pubblica poesia internazionale in italiano, inglese e tedesco, con autori come Sara Ferro W., e libri d’arte multimediali, celebrando cultura alternativa, creatività indipendente e innovazione, in sintonia con lo spirito del futuro."><meta name="robots" content="index, follow"><meta name="author" content="Kurze&Pos"><link href="https://fonts.googleapis.com/css2?family=Futura&display=swap" rel="stylesheet"><style> body, h1, h2, h3, h4, h5, h6, .live-heading, .live-subtitle, .live-paragraph, a.uk-button { font-family: 'Futura', sans-serif !important; } </style><link rel="icon" href="media/favicon.png"><link rel="shortcut icon" href="media/favicon.png"><meta property="og:image" content="media/social.jpeg"><script type="application/ld+json">
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kurze&Pos pubblica poesia internazionale in italiano, inglese e tedesco, con autori come Sara Ferro W., e libri d’arte multimediali, celebrando cultura alternativa, creatività indipendente e innovazione, in sintonia con lo spirito del futuro.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Kurze&Pos">
+<link href="https://fonts.googleapis.com/css2?family=Futura&display=swap" rel="stylesheet">
+<style>
+
+                .core-editor #page,
+                .core-editor #page h1, .core-editor #page h2, .core-editor #page h3,
+                .core-editor #page h4, .core-editor #page h5, .core-editor #page h6,
+                .core-editor #page .live-heading,
+                .core-editor #page .live-subtitle,
+                .core-editor #page .live-paragraph,
+                .core-editor #page a.uk-button,
+                .core-editor #editor-footer,
+                .core-editor #editor-footer h1, .core-editor #editor-footer h2, .core-editor #editor-footer h3,
+                .core-editor #editor-footer h4, .core-editor #editor-footer h5, .core-editor #editor-footer h6,
+                .core-editor #editor-footer .live-heading,
+                .core-editor #editor-footer .live-subtitle,
+                .core-editor #editor-footer .live-paragraph,
+                .core-editor #editor-footer a.uk-button,
+                body:not(.core-editor),
+                body:not(.core-editor) h1, body:not(.core-editor) h2, body:not(.core-editor) h3,
+                body:not(.core-editor) h4, body:not(.core-editor) h5, body:not(.core-editor) h6,
+                body:not(.core-editor) .live-heading,
+                body:not(.core-editor) .live-subtitle,
+                body:not(.core-editor) .live-paragraph,
+                body:not(.core-editor) a.uk-button {
+                    font-family: 'Futura', sans-serif !important;
+                }
+            
+/* Sacrisoft CORE CTA — single global button system */
+.sc-core-cta{
+  --sc-btn-bg:transparent;
+  --sc-btn-text:#ffffff;
+  --sc-btn-border:#ffffff;
+
+  appearance:none;
+  -webkit-appearance:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+
+  min-height:52px;
+  padding:0 30px;
+  margin-top:18px;
+
+  border:1px solid var(--sc-btn-border);
+  border-radius:25px;
+
+  background:var(--sc-btn-bg);
+  color:var(--sc-btn-text) !important;
+
+  font:inherit;
+  font-size:16px;
+  font-weight:500;
+  line-height:1.2;
+  text-align:center;
+  text-decoration:none !important;
+  text-transform:none;
+  letter-spacing:normal;
+
+  cursor:pointer;
+  transition:
+    background .18s ease,
+    color .18s ease,
+    border-color .18s ease,
+    opacity .18s ease,
+    filter .18s ease,
+    transform .18s ease;
+}
+
+/* Default: white outline */
+.sc-core-cta-default{
+  --sc-btn-bg:transparent;
+  --sc-btn-text:#ffffff;
+  --sc-btn-border:#ffffff;
+}
+.sc-core-cta-default:hover{
+  --sc-btn-bg:#ffffff;
+  --sc-btn-text:#000000;
+}
+
+/* Light: white background / black text */
+.sc-core-cta-light{
+  --sc-btn-bg:#ffffff;
+  --sc-btn-text:#000000;
+  --sc-btn-border:#ffffff;
+}
+.sc-core-cta-light:hover{
+  --sc-btn-bg:#f2f2f2;
+  --sc-btn-border:#f2f2f2;
+}
+
+/* Dark: black background / white text */
+.sc-core-cta-dark{
+  --sc-btn-bg:#000000;
+  --sc-btn-text:#ffffff;
+  --sc-btn-border:#000000;
+}
+.sc-core-cta-dark:hover{
+  --sc-btn-bg:#222222;
+  --sc-btn-border:#222222;
+}
+
+/* Text: intentionally larger and readable */
+.sc-core-cta-text{
+  min-height:auto;
+  padding:4px 0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  color:#ffffff !important;
+  font-size:1.35rem;
+  line-height:1.35;
+  text-decoration:underline !important;
+  text-underline-offset:.18em;
+}
+.sc-core-cta-text:hover{
+  opacity:.75;
+}
+
+/* Custom: CSS variables are written inline by makeButtonHtml() */
+.sc-core-cta-custom{
+  --sc-btn-bg:#FFA500;
+  --sc-btn-text:#ffffff;
+  --sc-btn-border:#FFA500;
+}
+.sc-core-cta-custom:hover{
+  filter:brightness(.92);
+}
+
+/* Content button groups */
+.sc-content-button-pair,
+.faq-answer-buttons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+
+.faq-answer-buttons{
+  justify-content:flex-start;
+}
+
+.sc-content-button-pair .sc-core-cta,
+.faq-answer-buttons .sc-core-cta{
+  margin-top:0;
+}
+
+/* Lightbox wrappers should behave like the button itself. */
+.sc-content-button-pair > .sc-lightbox-link,
+.faq-answer-buttons > .sc-lightbox-link{
+  display:inline-flex;
+}
+
+/* Mobile: stack only when needed, with space before button 2. */
+@media(max-width:640px){
+  .sc-content-button-pair,
+  .faq-answer-buttons{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .sc-content-button-pair > *,
+  .faq-answer-buttons > *{
+    width:100%;
+  }
+
+  .sc-content-button-pair > *:nth-child(2),
+  .faq-answer-buttons > *:nth-child(2){
+    margin-top:12px;
+  }
+
+  .sc-content-button-pair .sc-core-cta,
+  .faq-answer-buttons .sc-core-cta{
+    width:100%;
+  }
+}
+
+/* Default: UIkit-like white outline */
+.sc-core-cta.sc-core-cta-default{
+  background:transparent !important;
+  color:#ffffff !important;
+  border:1px solid #ffffff !important;
+}
+.sc-core-cta.sc-core-cta-default:hover{
+  background:#ffffff !important;
+  color:#000000 !important;
+}
+
+/* Light: white background / black text */
+.sc-core-cta.sc-core-cta-light{
+  background:#ffffff !important;
+  color:#000000 !important;
+  border:1px solid #ffffff !important;
+}
+.sc-core-cta.sc-core-cta-light:hover{
+  background:#f2f2f2 !important;
+  color:#000000 !important;
+}
+
+/* Dark: black background / white text */
+.sc-core-cta.sc-core-cta-dark{
+  background:#000000 !important;
+  color:#ffffff !important;
+  border:1px solid #000000 !important;
+}
+.sc-core-cta.sc-core-cta-dark:hover{
+  background:#222222 !important;
+  color:#ffffff !important;
+}
+
+/* Text: larger white text, no box */
+.sc-core-cta.sc-core-cta-text{
+  background:transparent !important;
+  color:#ffffff !important;
+  border:0 !important;
+  padding-left:0 !important;
+  padding-right:0 !important;
+  font-size:1.35rem !important;
+  line-height:1.35 !important;
+  text-decoration:underline;
+  text-underline-offset:.18em;
+}
+.sc-core-cta.sc-core-cta-text:hover{
+  color:#ffffff !important;
+  opacity:.78;
+}
+
+/* Custom: orange / white by default */
+.sc-core-cta.sc-core-cta-custom{
+  background:#FFA500 !important;
+  color:#ffffff !important;
+  border:1px solid #FFA500 !important;
+}
+.sc-core-cta.sc-core-cta-custom:hover{
+  filter:brightness(.92);
+}
+
+/* Paired CTA responsive behavior */
+.sc-content-button-pair,
+.faq-answer-buttons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.faq-answer-buttons{
+  justify-content:flex-start;
+}
+.sc-content-button-pair .sc-core-cta,
+.faq-answer-buttons .sc-core-cta{
+  margin-top:0 !important;
+}
+
+@media(max-width:640px){
+  .sc-content-button-pair,
+  .faq-answer-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+  }
+  .sc-content-button-pair > * ,
+  .faq-answer-buttons > *{
+    width:100%;
+  }
+  .sc-content-button-pair > *:nth-child(2),
+  .faq-answer-buttons > *:nth-child(2){
+    margin-top:12px !important;
+  }
+  .sc-content-button-pair .sc-core-cta,
+  .faq-answer-buttons .sc-core-cta{
+    width:100%;
+    text-align:center;
+  }
+}
+
+
+/* ============================================================
+   Sacrisoft CORE CTA — final override
+   One button system; no outlines.
+   ============================================================ */
+.sc-core-cta{
+  border:0 !important;
+  padding-left:46px !important;
+  padding-right:46px !important;
+}
+
+/* Default: white outline / white text -> solid white / black text */
+.sc-core-cta.sc-core-cta-default,
+.sc-core-cta-default{
+  background:transparent !important;
+  color:#ffffff !important;
+  border:1px solid #ffffff !important;
+}
+.sc-core-cta.sc-core-cta-default:hover,
+.sc-core-cta-default:hover{
+  background:#ffffff !important;
+  color:#000000 !important;
+  border-color:#ffffff !important;
+}
+
+/* Light: white / black -> black / white */
+.sc-core-cta.sc-core-cta-light,
+.sc-core-cta-light{
+  background:#ffffff !important;
+  color:#000000 !important;
+  border:0 !important;
+}
+.sc-core-cta.sc-core-cta-light:hover,
+.sc-core-cta-light:hover{
+  background:#000000 !important;
+  color:#ffffff !important;
+}
+
+/* Dark: black / white -> white / black */
+.sc-core-cta.sc-core-cta-dark,
+.sc-core-cta-dark{
+  background:#000000 !important;
+  color:#ffffff !important;
+  border:0 !important;
+}
+.sc-core-cta.sc-core-cta-dark:hover,
+.sc-core-cta-dark:hover{
+  background:#ffffff !important;
+  color:#000000 !important;
+}
+
+/* Custom: chosen BG/Text; hover swaps them */
+.sc-core-cta.sc-core-cta-custom,
+.sc-core-cta-custom{
+  background:var(--sc-btn-bg,#FFA500) !important;
+  color:var(--sc-btn-text,#ffffff) !important;
+  border:0 !important;
+}
+.sc-core-cta.sc-core-cta-custom:hover,
+.sc-core-cta-custom:hover{
+  background:var(--sc-btn-text,#ffffff) !important;
+  color:var(--sc-btn-bg,#FFA500) !important;
+  border:0 !important;
+  filter:none !important;
+}
+
+/* Text CTA: large white label with UIkit-like animated underline */
+.sc-core-cta.sc-core-cta-text,
+.sc-core-cta-text{
+  position:relative !important;
+  display:inline-flex !important;
+  min-height:auto !important;
+  padding:5px 1px !important;
+  background:transparent !important;
+  color:#ffffff !important;
+  border:0 !important;
+  border-radius:0 !important;
+  font-size:1.35rem !important;
+  line-height:1.35 !important;
+  text-decoration:none !important;
+}
+.sc-core-cta.sc-core-cta-text::after,
+.sc-core-cta-text::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:100%;
+  bottom:0;
+  height:1px;
+  background:currentColor;
+  transition:right .25s ease-out;
+}
+.sc-core-cta.sc-core-cta-text:hover::after,
+.sc-core-cta-text:hover::after{
+  right:0;
+}
+.sc-core-cta.sc-core-cta-text:hover,
+.sc-core-cta-text:hover{
+  color:#ffffff !important;
+  opacity:1 !important;
+}
+
+@media(max-width:640px){
+  .sc-core-cta{
+    padding-left:32px !important;
+    padding-right:32px !important;
+  }
+  .sc-content-button-pair > *:nth-child(2),
+  .faq-answer-buttons > *:nth-child(2){
+    margin-top:12px !important;
+  }
+}
+
+</style>
+
+
+
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -11,7 +416,9 @@
   "inLanguage": "it",
   "description": "Kurze&Pos pubblica poesia internazionale in italiano, inglese e tedesco, con autori come Sara Ferro W., e libri d’arte multimediali, celebrando cultura alternativa, creatività indipendente e innovazione."
 }
-</script><script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
@@ -25,7 +432,9 @@
   "datePublished": "2024-05-01",
   "description": "Poemetto parte di una trilogia in versi sulle mitologie attorno all'ex triangolo industriale GE-MI-TO produttivo di una semiotica generativa semiseria e scanzonata, affilata, avvitata, fintamente svaporata, tatticamente spinta, attenta, lettura ultra veloce, va letta lenta, di lingua franca biforcuta e lunga gittata, azione-reazione, appassionata, spassionata, spaesata, turbata, teoricamente conturbante e con questo manifesto poetico socialmente manifestata - sociologicamente contestataria, che sia pure contestata!"
 }
-</script><script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
@@ -36,7 +445,29 @@
   "datePublished": "2025-10-27",
   "description": "Polyglottolalia è un manifesto in versi per una sensibilità nuova, post-identitaria e metamorfica. Un viaggio attraverso sogni industriali, rovine sacre, spettri della cultura e cortocircuiti della fede. Un libro che non chiede di essere capito, ma di essere subìto, come un incantesimo, come un risveglio improvviso nel cuore del linguaggio."
 }
-</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/css/uikit.min.css" /><style>.live-paragraph { font-size: 1.13rem; max-width: 40em; margin-left:auto; margin-right:auto;}.live-heading.h-sm { font-size: 2.2rem; line-height: 1.15; }.live-heading.h-md { font-size: 3.2rem; line-height: 1.12; }.live-heading.h-lg { font-size: 4.2rem; line-height: 1.08; }.live-subtitle.sub-sm { font-size: 1.1rem; font-weight: 500; }.live-subtitle.sub-md { font-size: 1.35rem; font-weight: 500; }.live-subtitle.sub-lg { font-size: 1.7rem; font-weight: 500; }.live-paragraph.p-sm { font-size: 1.0rem; }.live-paragraph.p-md { font-size: 1.13rem; }.live-paragraph.p-lg { font-size: 1.30rem; }@media (max-width: 640px) {.live-heading.h-lg { font-size: 2.6rem; }.live-heading.h-md { font-size: 2.0rem; }.live-heading.h-sm { font-size: 1.6rem; }.live-subtitle.sub-lg { font-size: 1.2rem; }.live-subtitle.sub-md { font-size: 1.05rem; }.live-subtitle.sub-sm { font-size: 0.95rem; }.live-paragraph.p-lg { font-size: 1.05rem; }.live-paragraph.p-md { font-size: 0.98rem; }.live-paragraph.p-sm { font-size: 0.92rem; }}.live-paragraph.uk-text-large { font-size: 1.45rem; }@media (max-width: 640px) {.live-paragraph { font-size: 1rem;}.live-paragraph.uk-text-large { font-size: 1.1rem;}}img, video {max-width: 100%;height: auto;display: block;}@media (max-width: 640px) {.live-heading, .live-subtitle, .live-paragraph {word-break: break-word;white-space: normal;}}.navbar-scroll { display:flex; flex-wrap:nowrap; gap:1rem; overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch; padding:0.5rem 1rem; align-items:center; list-style:none; margin:0; }.navbar-scroll a { flex:0 0 auto; text-decoration:none; color:inherit; }.navbar-scroll a.uk-active { font-weight:bold; border-bottom:2px solid currentColor; } .navbar-logo {height: 40px !important;width: auto !important;max-height: 40px !important;object-fit: contain;flex-shrink: 0 !important;flex-grow: 0 !important;}.navbar-scroll {display: flex;flex-wrap: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;white-space: nowrap;gap: 1rem;padding: 0.5rem 1rem;}.navbar-scroll li {flex: 0 0 auto;list-style: none;}.visually-hidden {position: absolute !important;width: 1px; height: 1px;margin: -1px; padding: 0; border: 0;overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%);white-space: nowrap;}:root {--navbar-link-color: #000000;}.navbar-scroll::-webkit-scrollbar {height: 6px;}.navbar-scroll::-webkit-scrollbar-thumb {background: var(--navbar-link-color);border-radius: 3px;}.navbar-scroll::-webkit-scrollbar-track {background: var(--gray, #eee);}.navbar-scroll {-ms-overflow-style: none; scrollbar-width: none; }.navbar-scroll::-webkit-scrollbar {display: none; }.uk-button-primary {background-color: var(--dn-text, #000);color: #fff;}.uk-button-primary:hover {background-color: var(--dn-text, #000);color: #fff;}.uk-button-primary:active,.uk-button-primary.uk-active {background-color: var(--dn-text, #000);color: #fff;}.uk-button-secondary {background-color: var(--dn-text, #000);color: #fff;border: 1px solid transparent;}.uk-button-secondary:hover {background-color: #fff;color: var(--dn-text, #000);}.uk-button-secondary:active,.uk-button-secondary.uk-active {background-color: var(--dn-text, #000);color: #fff;}.uk-light .uk-button-secondary,.uk-section-primary:not(.uk-preserve-color) .uk-button-secondary,.uk-section-secondary:not(.uk-preserve-color) .uk-button-secondary,.uk-tile-primary:not(.uk-preserve-color) .uk-button-secondary,.uk-tile-secondary:not(.uk-preserve-color) .uk-button-secondary,.uk-card-primary.uk-card-body .uk-button-secondary,.uk-card-primary > :not([class*='uk-card-media']) .uk-button-secondary,.uk-card-secondary.uk-card-body .uk-button-secondary,.uk-card-secondary > :not([class*='uk-card-media']) .uk-button-secondary,.uk-overlay-primary .uk-button-secondary,.uk-offcanvas-bar .uk-button-secondary {background-color: var(--dn-text, #000);color: #fff;}.uk-link {text-decoration: underline;cursor: pointer;}.uk-link:hover,.uk-link-toggle:hover .uk-link {text-decoration: none;}.uk-lightbox-button {box-sizing: border-box;width: 50px;height: 50px;background: rgba(0, 0, 0, 0.3);color: rgba(255, 255, 255, 0.7);border-radius: 100%;display: inline-flex;justify-content: center;align-items: center;}.uk-lightbox-iframe {width: 90%;height: 90%;border: 0px solid black;border-radius: 0; }@supports (-webkit-hyphens: none) and (not (-moz-appearance: none)) {.uk-lightbox-iframe {border-radius: 25px;}}.uk-lightbox-toolbar {padding: 5px 5px;background: transparent;color: rgba(255, 255, 255, 0.7);}.uk-lightbox-toolbar > * {color: rgba(255, 255, 255, 0.7);}.uk-lightbox-toolbar-icon {box-sizing: border-box;width: 50px;height: 50px;background: #000;color: #fff;border-radius: 100%;display: inline-flex;justify-content: center;align-items: center;}.uk-lightbox .uk-lightbox-button.uk-close,.uk-lightbox .uk-lightbox-button.uk-close svg,.uk-lightbox .uk-close,.uk-lightbox [data-uk-close],.uk-lightbox [data-uk-close] > * {position: fixed !important; top: 5px !important; right: 5px !important; z-index: 999999 !important; display: inline-flex !important; opacity: 0.7 !important; visibility: visible !important; pointer-events: auto !important; transform: none !important; transition: none !important; animation: none !important; }.uk-lightbox .uk-lightbox-button.uk-close.uk-hidden,.uk-lightbox .uk-lightbox-button.uk-close.uk-invisible,.uk-lightbox .uk-close.uk-hidden,.uk-lightbox .uk-close.uk-invisible,.uk-lightbox [data-uk-close].uk-hidden,.uk-lightbox [data-uk-close].uk-invisible {display: inline-flex !important;opacity: 0.7 !important;visibility: visible !important;pointer-events: auto !important;}.uk-lightbox .uk-lightbox-button.uk-close svg,.uk-lightbox .uk-close svg {position: static !important;width: auto !important;height: auto !important;}@media (max-width: 480px) {.uk-lightbox .uk-lightbox-button.uk-close,.uk-lightbox .uk-close,.uk-lightbox [data-uk-close] {top: 8px !important;right: 8px !important;}}.uk-lightbox,.uk-lightbox.uk-open,.uk-lightbox .uk-lightbox-items { z-index: 9999 !important; }.uk-slidenav {padding: 5px 10px;color: rgba(102, 102, 102, 0.5);transition: color 0.1s ease-in-out;width: 50px;height: 50px;background: rgba(0, 0, 0, 0.3);color: rgba(255, 255, 255, 0.7);border-radius: 100%;display: inline-flex;justify-content: center;align-items: center;}html {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}button:focus,button:active {-moz-outline: 0 !important;-ms-outline:0 !important;-o-outline: 0 !important;-webkit-outline: 0 !important;}.uk-border-rounded {border-radius: 25px;}@media (max-width: 1024px) {  #dynamic-navbar-container, nav.uk-navbar-container { display: flex; align-items: center; justify-content: flex-start;  width: 100%; min-height: 60px; background-color: var(--navbar-bg-color, #fff); position: relative; z-index: 1; }  #dynamic-navbar-container ul.navbar-scroll, nav.uk-navbar-container ul.navbar-scroll { display: flex; align-items: center; margin: 0; padding: 0; }  #dynamic-navbar-container ul.navbar-scroll a:not(:has(img)), nav.uk-navbar-container ul.navbar-scroll a:not(:has(img)) { visibility: hidden;  pointer-events: none;  height: 0;  margin: 0; padding: 0; }  #dynamic-navbar-container ul.navbar-scroll a:has(img), nav.uk-navbar-container ul.navbar-scroll a:has(img) { visibility: visible; pointer-events: auto; }  #dynamic-navbar-container ul.navbar-scroll a:has(img) img, nav.uk-navbar-container ul.navbar-scroll a:has(img) img { display: block; max-height: 40px; width: auto; }#dynamic-navbar-container ul.navbar-scroll a:has(img) img,nav.uk-navbar-container ul.navbar-scroll a:has(img) img { display: block; max-height: 40px; width: auto; margin-left: 10px; }  #mobile-menu-toggle { display: flex; position: fixed; top: 12.5px; right: 10px; width: 40px; height: 40px; cursor: pointer; align-items: center; justify-content: center; z-index: 9999; isolation: isolate; background: transparent; } #mobile-menu-toggle .bar { width: 30px; height: 2px; background-color: var(--navbar-link-color, #000); position: absolute; border-radius: 1px; transition: all 0.4s ease; z-index: 2; } #mobile-menu-toggle .bar1 { top: 12px; } #mobile-menu-toggle .bar2 { top: 22px; } #mobile-menu-toggle.open .bar1 { top: 50%; transform: translateY(-50%) rotate(45deg); } #mobile-menu-toggle.open .bar2 { top: 50%; transform: translateY(-50%) rotate(-45deg); }  #mobile-menu { display: none; position: fixed; top: 60px; left: 0; width: 100%; background-color: var(--navbar-bg-color, #fff); color: var(--navbar-text-color, #000); padding: 1rem 0; flex-direction: column; align-items: center; text-align: center; z-index: 9998; } #mobile-menu.show { display: flex !important; } #mobile-menu a { display: block; width: 100%; box-sizing:border-box; margin: 0.5rem 0; padding: 0.5rem 1.25rem; text-align: center; white-space: normal; word-break: break-word; overflow-wrap: break-word; color: var(--navbar-text-color, #000); text-decoration: none; background: transparent; }  #mobile-menu .navbar-logo { display: none; }}@media (min-width: 1025px) { #mobile-menu-toggle { display: none !important; } #mobile-menu { display: none; }  #dynamic-navbar-container, nav.uk-navbar-container { display: flex; align-items: center; justify-content: flex-start; width: 100%; min-height: 60px; background-color: var(--navbar-bg-color, #fff); position: relative; z-index: 1; }  #dynamic-navbar-container ul.navbar-scroll a, nav.uk-navbar-container ul.navbar-scroll a { display: inline-block !important; visibility: visible !important; height: auto !important; margin: initial; padding: initial; text-decoration: none; }}#dynamic-navbar-container .navbar-scroll a:has(img) { text-decoration: none !important; border-bottom: none !important;}nav.uk-navbar-container .navbar-scroll a:has(img),.navbar-scroll a:has(img){ text-decoration: none !important; border-bottom: none !important; }#editor-dropnavbar.dn-bar,.dn-bar{ border: 0 !important; border-bottom: 0 !important; box-shadow: none !important; outline: none !important;}.accordion-icon { transition: transform 0.2s ease;}.uk-open .accordion-icon { transform: rotate(45deg);}</style><link id="custom-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Futura&amp;display=swap"><style id="export-font-css"> body, h1, h2, h3, h4, h5, h6, .live-heading, .live-subtitle, .live-paragraph, a.uk-button { font-family: 'Futura', sans-serif !important; } </style></head><body class="uk-background-muted" id="top"><h1 id="site-title-h1" class="visually-hidden">Kurze&Pos – Libri di poesia</h1><div id="mobile-menu-toggle" aria-label="Toggle mobile menu"><div class="bar bar1"></div><div class="bar bar2"></div></div><div id="mobile-menu" aria-hidden="true"></div><script>
+</script>
+<link rel="stylesheet" href="assets/css/uikit.min.css" />
+<link rel="stylesheet" href="assets/css/custom.css" />
+
+
+
+<link id="custom-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Futura&amp;display=swap">
+
+
+<script>try{if(window.self!==window.top)document.documentElement.classList.add('sc-internal-page-lightbox');}catch(e){}</script><style>html.sc-internal-page-lightbox .sc-dynamic-navbar,html.sc-internal-page-lightbox #dynamic-navbar-container,html.sc-internal-page-lightbox #mobile-menu-toggle,html.sc-internal-page-lightbox #mobile-menu{display:none!important;}
+html.sc-internal-page-lightbox .dn-bar,html.sc-internal-page-lightbox #dropnavbar-container,html.sc-internal-page-lightbox #drop-navbar,html.sc-internal-page-lightbox .drop-navbar,html.sc-internal-page-lightbox .dn-popover{display:none!important;}</style>
+
+</head>
+<body class="uk-background-muted sc-user-site" id="top">
+<h1 id="site-title-h1" class="visually-hidden">Kurze&Pos – Libri di poesia</h1>
+
+<!-- Mobile Menu (Preview/Export) -->
+<div id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+  <div class="bar bar1"></div>
+  <div class="bar bar2"></div>
+</div>
+<div id="mobile-menu" aria-hidden="true"></div>
+<script>
 (function(){
   var toggle = document.getElementById('mobile-menu-toggle');
   var menu = document.getElementById('mobile-menu');
@@ -46,7 +477,7 @@
     var nav = document.querySelector('nav.uk-navbar-container ul.navbar-scroll');
     if (!nav) return;
 
-    
+    // Sync colors from navbar (matches app2 behavior)
     try {
       var navbarBg = getComputedStyle(nav.parentElement).backgroundColor;
       var navbarText = getComputedStyle(nav).color;
@@ -54,7 +485,7 @@
       document.documentElement.style.setProperty('--navbar-text-color', navbarText);
       document.documentElement.style.setProperty('--navbar-link-color', navbarText);
     } catch(e) {}
-    
+    // Build a simple vertical menu from the navbar links
     var ul = document.createElement('ul');
     ul.className = 'uk-nav uk-nav-default';
     nav.querySelectorAll('li a').forEach(function(a){
@@ -87,7 +518,7 @@
     setOpen(!isOpen());
   });
 
-  
+  // Close on outside click
   document.addEventListener('click', function(e){
     if (!isOpen()) return;
     if (toggle === e.target || toggle.contains(e.target)) return;
@@ -95,61 +526,1017 @@
     setOpen(false);
   });
 
-  
+  // Close on link click
   menu.addEventListener('click', function(e){
     var a = e.target && e.target.closest && e.target.closest('a');
     if (a) setOpen(false);
   });
 
-  
+  // Rebuild on load (and after global links refresh)
   window.addEventListener('load', function(){ build(); });
 
-  
+  // Close if resizing up
   window.addEventListener('resize', function(){
     if (window.innerWidth > 1024) setOpen(false);
   });
 
-  
+  // Expose a tiny hook used by global-links loader (safe no-op elsewhere)
   window.__rebuildMobileMenu = build;
 })();
-</script><nav class="uk-navbar-container" style="background:#000000;position:sticky;top:0;z-index:999;"><ul class="navbar-scroll" uk-scrollspy-nav="closest: a; scroll: true; offset: 100" style="color:#ffffff;"><li><a class="navbar-logo-link" href="#top"><img src="media/logo.svg" alt="Kurze&Pos – Libri di poesia" class="navbar-logo"></a></li><li><a href="#section-1">Sineddoche Torino</a></li><li><a href="#section-5">Polyglottolalia</a></li></ul></nav><section id="section-0" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div style="background:#000000; width:100vw; height:100vh; margin:0; padding:0; overflow:hidden;"><div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 4000; finite: false;" style="background:#000000; width:100vw; height:100vh; overflow:hidden; margin-left:calc(50% - 50vw);"><ul class="uk-slider-items uk-child-width-1-1" style="height:100vh; margin:0; padding:0;"><li><div class="uk-cover-container" style="width:100vw; height:100vh;"><img src="media/mediafile1.jpeg" alt="Sineddoche Torino" uk-cover><div class="uk-position-center uk-text-center uk-padding-small" style="color:#ffffff; z-index:2; text-shadow: 0 2px 12px rgba(0,0,0,.55);"><h2 class="live-heading h-md" style="color:#ffffff; margin:0;">Sineddoche Torino</h2><div class="live-paragraph p-md uk-margin-small-top" style="color:#ffffff;">Sara Ferro W.</div><div class="uk-margin-top"><a class="uk-button uk-button-secondary uk-border-rounded" href="https://amzn.eu/d/03NKkpGM" target="_blank" rel="noopener">Leggi ora</a></div></div></div></li><li><div class="uk-cover-container" style="width:100vw; height:100vh;"><img src="media/mediafile2.jpeg" alt="Polyglottolalia: Poesie dal Poliverso" uk-cover><div class="uk-position-center uk-text-center uk-padding-small" style="color:#ffffff; z-index:2; text-shadow: 0 2px 12px rgba(0,0,0,.55);"><h2 class="live-heading h-md" style="color:#ffffff; margin:0;">Polyglottolalia: Poesie dal Poliverso</h2><div class="live-paragraph p-md uk-margin-small-top" style="color:#ffffff;">ARTOLDO</div><div class="uk-margin-top"><a class="uk-button uk-button-secondary uk-border-rounded" href="https://amzn.eu/d/0h5FZTGg" target="_blank" rel="noopener">Leggi ora</a></div></div></div></li></ul><a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" aria-label="Previous"></a><a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next" aria-label="Next"></a><ul class="uk-slider-nav uk-dotnav uk-margin-medium-bottom uk-flex-center uk-position-bottom-center uk-position-small" style="margin:0;"></ul></div></div></section><section id="section-1" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div class="uk-padding-large" style="background:#000000;"><div class="uk-grid-medium uk-child-width-1-1@s uk-flex-middle" uk-grid><div class="uk-width-1-2@m"><img src="media/mediafile3.jpeg"alt="Sineddoche Torino"class="uk-border-rounded uk-box-shadow-large"uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:0; offset:120; repeat:false"style="width:100%; height:auto; display:block; margin:0 auto;"></div><div class="uk-width-1-2@m uk-padding-medium uk-text-left@m uk-text-center@s"><div uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:120; offset:120; repeat:false"><div uk-scrollspy="cls: uk-animation-slide-top; repeat: true"><h2 class="live-heading uk-heading-large" style="color: #ffffff;">Sineddoche Torino</h2><div class="live-subtitle uk-heading-medium" style="color:#ffffff">GE-MI-TO</div><a href="https://amzn.eu/d/05KwmOPX" class="uk-button uk-button-default uk-margin-top uk-border-rounded" target="_blank">Leggi ora</a></div></div></div></div></div></section><section id="section-2" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:60vh;padding:0;margin:0;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle"style="background:#ffffff; min-height:60vh;"><div class="uk-container uk-text-justify" style="color:#000000;" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"><div class="live-subtitle sub-lg" style="color:#000000;">Sineddoche Torino: GE-MI-TO</div><p class="live-paragraph p-lg" style="color:#000000;">Poemetto parte di una trilogia in versi sulle mitologie attorno all'ex triangolo industriale GE-MI-TO produttivo di una semiotica generativa semiseria e scanzonata, affilata, avvitata, fintamente svaporata, tatticamente spinta, attenta, lettura ultra veloce, va letta lenta, di lingua franca biforcuta e lunga gittata, azione-reazione, appassionata, spassionata, spaesata, turbata, teoricamente conturbante e con questo manifesto poetico socialmente manifestata - sociologicamente contestataria, che sia pure contestata!Tra cultura pop, trap e critica sociale, la poetessa Sara Ferro W. schizza l’immagine di un quartiere di una città decaduta e sopravvissuta, ivi liricamente trasformata in più vera, più fragile, più surreale - come solo un poemetto satirico può fare. Versi accelerati e arricchiti di metafore segrete descrivono la vita quotidiana intellettuale annoiata e irretita di uno zeitgeist intossicato da smog e negazionismo della società ostaggio di una nuvola woke, che non solo fa piovere lacrime contaminate su una popolazione rallentata ma che fa ombra su una città che vive i giorni più belli come nostalgici di un tempo passato all’insegna di ideali mai trovati. L’autrice si muove agilmente tra satira e poesia bi-emozionale, appunto tra riso e rabbia, luce e oscurità, consenso e verità, belle arti e tende di plastica atte a coprire la facciata di un’impossibile gentrificazione, tanto temuta, mai arrivata, forse emigrata, comunque deflagrata e deragliata perché, ad ogni modo, da indigeni e parvenue non accettata.Probabilmente l’opera più provocativa, reale e magicamente realistica mai scritta su questa città dell’ex-triangolo industriale attraversato il confine dell’immaginazione oltre la Barriera di Milano, dove le pose che in un primo momento per la sonorità vivace e squillante del ritmo possono sembrare superficie, riacquistano un tono più seriamente connotato che ne fa postazioni urbane di agguati e affondi per una critica delle forme civiche che smuovano a più franchezza riguardo lo stato in cui versano le nostre città e regalino squarci in cui trovare spunti visionari oltre facili buonismi e visioni ultra tradizionali nel bene e nel male impregnate di egemonia culturale ideologica. Per uno sprone ad un alternativo approccio alla sostenibilità, alla vivibilità, all’utopia urbana, al buon vivere (magari solo per alcuni ormai residuali, che non si piegano alle nuove finte regole del Buon Vivere dettate da un progetto scriteriato di bocca buona e sistematica chiusura di un occhio) e al buon governo. Un minimale manierismo tattico per infarcire al meglio uno spaccato urbano come uno squisito tramezzino torinese rivisitato, una strategia lessicale e sintattica accelerata ma che si ferma a tutti i semafori rossi ed è gentile per strada non solo in prossimità delle strisce.Nel solco dell’atteggiamento “camp” è la bugia che racconta la verità nascosta nelle pieghe delle pose e di un posare che è soppesare, come il “camp” infatti fa, tra politica e poetica, sorta di biografia gonfiata da incessante postmoderno citazionismo che nella spersonalizzazione dovuta al dato esterno archiviato nella memoria pop stravolta e rigirata dalla parodia obbliga e impone una nuova visione del testo e tessuto culturale di una città altrimenti annegata in analisi culturali dominanti e stanche.NdR: Per comporre la trilogia poetica GE-MI-TO la poetessa ha fatto esperienza concreta delle tre città in questione: natali milanesi, decadi genovesi e orizzonti di gloria (sfumati) sulle cime torinesi. Mentre le prime due le sono capitate, Torino è stata scelta come residenza almeno temporanea proprio per chiudere il cerchio attorno al triangolo industriale.</p></div></div></section><section id="section-3" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div class="uk-container uk-padding" style="background:#000000; color:#ffffff"><div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true" uk-lightbox="animation: slide; toggle: a" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: false"><div><a class="uk-inline" data-type="image" href="media/gallery4_img1.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img1.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img2.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img2.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img3.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img3.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img4.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img4.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img5.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img5.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img6.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img6.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img7.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img7.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img8.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img8.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img9.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img9.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img10.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img10.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img11.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img11.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div><div><a class="uk-inline" data-type="image" href="media/gallery4_img12.jpg"  data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W."  aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W."><img class="uk-border-rounded" style="width:100%;height:auto;display:block"  src="media/gallery4_img12.jpg"  alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W."></a></div></div></div></section><section id="section-4" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div style="position:relative; width:100vw; height:100vh; overflow:hidden;"><video src="media/mediafile4.mp4" autoplay loop muted playsinlinestyle="width:100vw;height:100vh;object-fit:cover;display:block;" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false"></video><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;" class="uk-text-center uk-light"><div uk-scrollspy="cls: uk-animation-slide-top; repeat: true"><h2 class="live-heading uk-heading-large" style="color: #ffffff;"></h2><div class="live-subtitle uk-heading-xlarge" style="color:#ffffff">Sineddoche Torino</div><a href="https://amzn.eu/d/03NKkpGM" class="uk-button uk-button-secondary uk-margin-top uk-border-rounded" target="_blank">Leggi ora</a></div></div></div></section><section id="section-5" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div class="uk-padding-large" style="background:#000000;"><div class="uk-grid-medium uk-child-width-1-1@s uk-flex-middle" uk-grid><div class="uk-width-1-2@m"><img src="media/mediafile5.jpeg"alt="Polyglottolalia"class="uk-border-rounded uk-box-shadow-large"uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:0; offset:120; repeat:false"style="width:100%; height:auto; display:block; margin:0 auto;"></div><div class="uk-width-1-2@m uk-padding-medium uk-text-left@m uk-text-center@s"><div uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:120; offset:120; repeat:false"><div uk-scrollspy="cls: uk-animation-slide-top; repeat: true"><h2 class="live-heading uk-heading-large" style="color: #ffffff;">Polyglottolalia</h2><div class="live-subtitle uk-heading-medium" style="color:#ffffff">Poesie dal Poliverso</div><a href="https://amzn.eu/d/05vNBL1x" class="uk-button uk-button-default uk-margin-top uk-border-rounded" target="_blank">Leggi ora</a></div></div></div></div></div></section><section id="section-6" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:60vh;padding:0;margin:0;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle"style="background:#ffffff; min-height:60vh;"><div class="uk-container uk-text-justify" style="color:#000000;" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"><div class="live-subtitle sub-lg" style="color:#000000;">Polyglottolalia: Poesie dal Poliverso</div><p class="live-paragraph p-md" style="color:#000000;">Polyglottolalia non si legge: si attraversa.È un territorio linguistico in stato di trance, dove le parole mutano pelle e le immagini si piegano, si deformano, si liberano. Ogni poesia è un varco, un corto circuito tra mito e postumanesimo, tra visioni mistiche e cronache digitali, tra ciò che resta del sacro e ciò che pulsa nel rumore di fondo delle nostre città.Qui la lingua non consola, ma rivolta. È strumento, arma, rito. Scardina la grammatica del potere, incrina la visione educata, infrange il filtro del “pensiero corretto” che plasma il reale. Ribaltano consuetudini, disturbano la lettura e insinuano domande sulla realtà, sulla politica dominante e sul controllo delle percezioni. Non è un libro da leggere distrattamente: invita a smarrirsi, a percepire il mondo altrimenti, a osare la visione oltre il visibile.Polyglottolalia è un manifesto in versi per una sensibilità nuova, post-identitaria e metamorfica. Un viaggio attraverso sogni industriali, rovine sacre, spettri della cultura e cortocircuiti della fede. Un libro che non chiede di essere capito, ma di essere subìto, come un incantesimo, come un risveglio improvviso nel cuore del linguaggio.Polyglottolalia è un libro che agisce come un vento sotterraneo: muove parole e immagini fino a far vacillare la mente, riscrivendo il confine tra ciò che si vede e ciò che si percepisce. I suoi versi, labirintici e stranianti, aprono finestre su mondi dove il mito, la storia, il cinema sperimentale e le derive della controcultura si intrecciano in un tessuto impossibile da ignorare. Ogni pagina è un invito a esplorare lo straniamento come forma di conoscenza: qui i confini tra sacro e profano, tra finzione e documento, tra cronaca e mito, si dissolvono. Non cerca consenso, ma connessione con chi osa guardare oltre l’egemonia culturale imperante. È un manifesto che apre a letture perturbanti della realtà, un altoparlante silenzioso che risuona nelle pieghe più oscure del pensiero, nelle crepe invisibili della percezione quotidiana. Leggerlo significa abbandonare la sicurezza delle categorie convenzionali e affrontare il mondo come un caleidoscopio inquietante e magnifico.</p></div></div></section><section id="section-7" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div class="uk-container uk-padding" style="background:#000000; color:#ffffff"><div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"uk-grid="masonry: true" uk-lightbox="animation: slide; toggle: a" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: false"><div><a class="uk-inline" data-type="image" href="media/gallery8_img1.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img1.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img2.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img2.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img3.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img3.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img4.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img4.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img5.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img5.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img6.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img6.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img7.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img7.jpg" alt=""></a></div><div><a class="uk-inline" data-type="image" href="media/gallery8_img8.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label=""><img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/gallery8_img8.jpg" alt=""></a></div></div></div></section><section id="section-8" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#000000;min-height:60vh;padding:0;margin:0;"><div style="position:relative; width:100vw; height:100vh; overflow:hidden;"><video src="media/mediafile6.mp4" autoplay loop muted playsinlinestyle="width:100vw;height:100vh;object-fit:cover;display:block;" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false"></video><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;" class="uk-text-center uk-light"><div uk-scrollspy="cls: uk-animation-slide-top; repeat: true"><h2 class="live-heading uk-heading-large" style="color: #ffffff;"></h2><div class="live-subtitle uk-heading-large" style="color:#ffffff">Polyglottolalia</div><a href="https://amzn.eu/d/05vNBL1x" class="uk-button uk-button-secondary uk-margin-top uk-border-rounded" target="_blank">Leggi ora</a></div></div></div></section><section id="section-9" class="uk-section uk-section-primary" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:60vh;padding:0;margin:0;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle" style="background:#ffffff; min-height:60vh;"><div class="uk-container uk-width-1-1 uk-padding-large"><div style="max-width: 800px; margin: 0 auto;"><h2 class="live-heading h-md" style="color:#000000;">Kurze&amp;Pos</h2><ul class="uk-accordion uk-margin-medium-top" uk-accordion="multiple: false"><li><a class="uk-accordion-title" href="#" style="color:#000000;"><span uk-icon="plus" class="accordion-icon uk-margin-small-right"></span> Chi siamo </a><div class="uk-accordion-content uk-margin-large-left" style="color:#000000;"><p class="live-paragraph p-md" style="color:#000000;">Kurze&amp;Pos deriva dal tedesco Kurzepos – Kurz + Epos.<br><br>POESIA – POETRY – POESIE<br><br>Pubblichiamo poesia e poeti internazionali in italiano, inglese e tedesco.<br><br>ARTE – ART – KUNST <br>Libro – Book – Buch<br><br>Siamo inoltre specializzati in libri d’arte multimediali.<br><br>La parola “mainstream” è tra i nostri contatti bloccati: celebriamo la cultura alternativa e abbracciamo un’esistenza autonoma e decentralizzata, in sintonia con lo Zeitgeist del futuro.</p></div></li></ul></div></div></div></section><footer class="uk-section uk-section-small" style="background:#000000; color:#ffffff; text-align:center;"><p><strong>Kurze&Pos – Libri di poesia</strong></p><p>&copy; 2026 Kurze&Pos</p></footer><script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit.min.js"></script><script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit-icons.min.js"></script><script>
+</script>
+
+<nav class="uk-navbar-container sc-dynamic-navbar" style="background:rgba(0,0,0,1);position:sticky !important;top:0 !important;z-index:9000 !important;">
+<ul class="navbar-scroll" data-sc-preview-nav="1" style="color:#ffffff;">
+<li><a class="navbar-logo-link sc-page-active" href="index.html"><img src="media/logo.svg" alt="Kurze&Pos – Libri di poesia" class="navbar-logo"></a></li><li class="sc-page-heading-link"><a href="#sineddoche-torino">Sineddoche Torino</a></li><li class="sc-page-heading-link"><a href="#polyglottolalia">Polyglottolalia</a></li><li class="sc-page-heading-link"><a href="#alt-hist">Alt Hist!</a></li><li class="sc-page-heading-link"><a href="#kurze-and-pos">Kurze&Pos</a></li>
+</ul>
+</nav>
+
+
+<section id="1" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content sc-slider-panel" style="width:100%;margin-top:auto;margin-bottom:auto;">
+        <div style="background:#000000; width:100vw; height:100vh; margin:0; padding:0; overflow:hidden;">
+          
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+         uk-slider="autoplay: true; autoplay-interval: 4000; finite: false;"
+         style="background:#000000; width:100vw; height:100vh; overflow:hidden; margin-left:calc(50% - 50vw);">
+      
+
+      <ul class="uk-slider-items uk-child-width-1-1" style="height:100vh; margin:0; padding:0;">
+        
+  <li data-sc-slider-index="0">
+    <div class="uk-cover-container"
+         style="width:100vw;height:100vh;overflow:hidden;">
+
+      <img src="media/Alt-Hist-Alta-Storia-Sara-Ferro-W.jpeg" alt="Alt Hist! Alta Storia" uk-cover>
+
+      
+
+      <div class="uk-position-center uk-text-center uk-padding-small" style="color:#ffffff; z-index:2; text-shadow: 0 2px 12px rgba(0,0,0,.55);">
+           <h2 class="live-heading h-md" style="color:#ffffff; margin:0;">Alt Hist! Alta Storia</h2>
+           <div class="live-paragraph p-md uk-margin-small-top" style="color:#ffffff;">Sara Ferro W.</div>
+           <div class="sc-content-button-pair sc-slider-button-pair"><a href="https://www.amazon.it/Hist-Alta-Storia-Sara-Ferro/dp/B0GSK491VB" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+         </div>
+      
+
+    </div>
+  </li>
+
+  <li data-sc-slider-index="1">
+    <div class="uk-cover-container"
+         style="width:100vw;height:100vh;overflow:hidden;">
+
+      <img src="media/Sineddoche-Torino-Sara-Ferro-W.jpeg" alt="Sineddoche Torino" uk-cover>
+
+      
+
+      <div class="uk-position-center uk-text-center uk-padding-small" style="color:#ffffff; z-index:2; text-shadow: 0 2px 12px rgba(0,0,0,.55);">
+           <h2 class="live-heading h-md" style="color:#ffffff; margin:0;">Sineddoche Torino</h2>
+           <div class="live-paragraph p-md uk-margin-small-top" style="color:#ffffff;">Sara Ferro W.</div>
+           <div class="sc-content-button-pair sc-slider-button-pair"><a href="https://amzn.eu/d/03NKkpGM" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+         </div>
+      
+
+    </div>
+  </li>
+
+  <li data-sc-slider-index="2">
+    <div class="uk-cover-container"
+         style="width:100vw;height:100vh;overflow:hidden;">
+
+      <img src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO.jpeg" alt="Polyglottolalia: Poesie dal Poliverso" uk-cover>
+
+      
+
+      <div class="uk-position-center uk-text-center uk-padding-small" style="color:#ffffff; z-index:2; text-shadow: 0 2px 12px rgba(0,0,0,.55);">
+           <h2 class="live-heading h-md" style="color:#ffffff; margin:0;">Polyglottolalia: Poesie dal Poliverso</h2>
+           <div class="live-paragraph p-md uk-margin-small-top" style="color:#ffffff;">ARTOLDO</div>
+           <div class="sc-content-button-pair sc-slider-button-pair"><a href="https://amzn.eu/d/0h5FZTGg" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+         </div>
+      
+
+    </div>
+  </li>
+
+      </ul>
+
+      
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" aria-label="Previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next" aria-label="Next"></a>
+      
+
+      <ul class="uk-slider-nav uk-dotnav uk-margin-medium-bottom uk-flex-center uk-position-bottom-center uk-position-small" style="margin:0;"></ul>
+    </div>
+  
+        </div>
+      </div>
+</section>
+<section id="sineddoche-torino" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div class="uk-padding-large" style="background:#000000;">
+<div class="uk-grid-medium uk-child-width-1-1@s uk-flex-middle" uk-grid>
+<div class="uk-width-1-2@m"><img src="media/Sineddoche-Torino-GE-MI-TO.jpeg"
+alt="Sineddoche Torino"
+class="uk-border-rounded uk-box-shadow-large"
+uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:0; offset:120; repeat:false"
+style="width:100%; height:auto; display:block; margin:0 auto;"></div>
+<div class="uk-width-1-2@m uk-padding-medium uk-text-left@m uk-text-center@s">
+<div uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:120; offset:120; repeat:false">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-large" style="color: #ffffff;">Sineddoche Torino</h2>
+<div class="live-subtitle uk-heading-medium" style="color:#ffffff">GE-MI-TO</div>
+<div class="sc-content-button-pair"><a href="https://amzn.eu/d/05KwmOPX" class="sc-core-cta sc-core-cta-default" target="_blank" rel="noopener">Leggi ora</a></div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="sineddoche-torino-ge-mi-to" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle" style="background:#ffffff;min-height:60vh;">
+      <div class="uk-container uk-text-justify" style="color:#000000;" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        
+        <div class="live-subtitle sub-lg" style="color:#000000;">Sineddoche Torino: GE-MI-TO</div>
+        <div class="live-paragraph p-lg uk-dropcap" style="color:#000000;">Poemetto parte di una trilogia in versi sulle mitologie attorno all'ex triangolo industriale GE-MI-TO produttivo di una semiotica generativa semiseria e scanzonata, affilata, avvitata, fintamente svaporata, tatticamente spinta, attenta, lettura ultra veloce, va letta lenta, di lingua franca biforcuta e lunga gittata, azione-reazione, appassionata, spassionata, spaesata, turbata, teoricamente conturbante e con questo manifesto poetico socialmente manifestata - sociologicamente contestataria, che sia pure contestata!
+
+Tra cultura pop, trap e critica sociale, la poetessa Sara Ferro W. schizza l’immagine di un quartiere di una città decaduta e sopravvissuta, ivi liricamente trasformata in più vera, più fragile, più surreale - come solo un poemetto satirico può fare. Versi accelerati e arricchiti di metafore segrete descrivono la vita quotidiana intellettuale annoiata e irretita di uno zeitgeist intossicato da smog e negazionismo della società ostaggio di una nuvola woke, che non solo fa piovere lacrime contaminate su una popolazione rallentata ma che fa ombra su una città che vive i giorni più belli come nostalgici di un tempo passato all’insegna di ideali mai trovati. L’autrice si muove agilmente tra satira e poesia bi-emozionale, appunto tra riso e rabbia, luce e oscurità, consenso e verità, belle arti e tende di plastica atte a coprire la facciata di un’impossibile gentrificazione, tanto temuta, mai arrivata, forse emigrata, comunque deflagrata e deragliata perché, ad ogni modo, da indigeni e parvenue non accettata.
+
+Probabilmente l’opera più provocativa, reale e magicamente realistica mai scritta su questa città dell’ex-triangolo industriale attraversato il confine dell’immaginazione oltre la Barriera di Milano, dove le pose che in un primo momento per la sonorità vivace e squillante del ritmo possono sembrare superficie, riacquistano un tono più seriamente connotato che ne fa postazioni urbane di agguati e affondi per una critica delle forme civiche che smuovano a più franchezza riguardo lo stato in cui versano le nostre città e regalino squarci in cui trovare spunti visionari oltre facili buonismi e visioni ultra tradizionali nel bene e nel male impregnate di egemonia culturale ideologica. Per uno sprone ad un alternativo approccio alla sostenibilità, alla vivibilità, all’utopia urbana, al buon vivere (magari solo per alcuni ormai residuali, che non si piegano alle nuove finte regole del Buon Vivere dettate da un progetto scriteriato di bocca buona e sistematica chiusura di un occhio) e al buon governo. Un minimale manierismo tattico per infarcire al meglio uno spaccato urbano come uno squisito tramezzino torinese rivisitato, una strategia lessicale e sintattica accelerata ma che si ferma a tutti i semafori rossi ed è gentile per strada non solo in prossimità delle strisce.
+
+Nel solco dell’atteggiamento “camp” è la bugia che racconta la verità nascosta nelle pieghe delle pose e di un posare che è soppesare, come il “camp” infatti fa, tra politica e poetica, sorta di biografia gonfiata da incessante postmoderno citazionismo che nella spersonalizzazione dovuta al dato esterno archiviato nella memoria pop stravolta e rigirata dalla parodia obbliga e impone una nuova visione del testo e tessuto culturale di una città altrimenti annegata in analisi culturali dominanti e stanche.
+
+NdR: Per comporre la trilogia poetica GE-MI-TO la poetessa ha fatto esperienza concreta delle tre città in questione: natali milanesi, decadi genovesi e orizzonti di gloria (sfumati) sulle cime torinesi. Mentre le prime due le sono capitate, Torino è stata scelta come residenza almeno temporanea proprio per chiudere il cerchio attorno al triangolo industriale.</div>
+        
+      </div>
+    </div></div>
+</section>
+<section id="4" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content sc-gallery-panel" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-container uk-padding" style="background:#000000; color:#ffffff">
+    
+    
+    <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"
+         uk-grid="masonry: true" uk-lightbox="animation: slide; toggle: a"
+         uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: false">
+      <div data-sc-gallery-index="0">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="1">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-2.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-2.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="2">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-3.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-3.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="3">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-4.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-4.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="4">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-5.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-5.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="5">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-6.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-6.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="6">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-7.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-7.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="7">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-8.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-8.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="8">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-9.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-9.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="9">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-10.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-10.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="10">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-11.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-11.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+<div data-sc-gallery-index="11">
+      <a class="uk-inline" data-type="image" href="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-12.jpg" data-caption="Sineddoche Torino: GE-MI-TO — Sara Ferro W." aria-label="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Sineddoche-Torino-GE-MI-TO-Sara-Ferro-W-12.jpg" alt="Sineddoche Torino: GE-MI-TO — Sara Ferro W.">
+      </a>
+    </div>
+    </div>
+  </div></div>
+</section>
+<section id="sineddoche-torino-2" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div style="position:relative; width:100vw; height:100vh; overflow:hidden;">
+<video src="media/Sineddoche-Torino.mp4" autoplay loop muted playsinline
+style="width:100vw;height:100vh;object-fit:cover;display:block; pointer-events:none;" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false"></video>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;" class="uk-text-center uk-light">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-large" style="color: #ffffff;"></h2>
+<div class="live-subtitle uk-heading-xlarge" style="color:#ffffff">Sineddoche Torino</div>
+<div class="sc-content-button-pair"><a href="https://amzn.eu/d/03NKkpGM" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="polyglottolalia" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div class="uk-padding-large" style="background:#000000;">
+<div class="uk-grid-medium uk-child-width-1-1@s uk-flex-middle" uk-grid>
+<div class="uk-width-1-2@m"><img src="media/Polyglottolalia-Poesie-dal-Poliverso.jpeg"
+alt="Polyglottolalia"
+class="uk-border-rounded uk-box-shadow-large"
+uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:0; offset:120; repeat:false"
+style="width:100%; height:auto; display:block; margin:0 auto;"></div>
+<div class="uk-width-1-2@m uk-padding-medium uk-text-left@m uk-text-center@s">
+<div uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:120; offset:120; repeat:false">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-large" style="color: #ffffff;">Polyglottolalia</h2>
+<div class="live-subtitle uk-heading-medium" style="color:#ffffff">Poesie dal Poliverso</div>
+<div class="sc-content-button-pair"><a href="https://amzn.eu/d/05vNBL1x" class="sc-core-cta sc-core-cta-default" target="_blank" rel="noopener">Leggi ora</a></div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="polyglottolalia-poesie-dal-poliverso" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle" style="background:#ffffff;min-height:60vh;">
+      <div class="uk-container uk-text-justify" style="color:#000000;" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        
+        <div class="live-subtitle sub-lg" style="color:#000000;">Polyglottolalia: Poesie dal Poliverso</div>
+        <div class="live-paragraph p-md uk-dropcap" style="color:#000000;">Polyglottolalia non si legge: si attraversa.
+
+È un territorio linguistico in stato di trance, dove le parole mutano pelle e le immagini si piegano, si deformano, si liberano. Ogni poesia è un varco, un corto circuito tra mito e postumanesimo, tra visioni mistiche e cronache digitali, tra ciò che resta del sacro e ciò che pulsa nel rumore di fondo delle nostre città.
+
+Qui la lingua non consola, ma rivolta. È strumento, arma, rito. Scardina la grammatica del potere, incrina la visione educata, infrange il filtro del “pensiero corretto” che plasma il reale. Ribaltano consuetudini, disturbano la lettura e insinuano domande sulla realtà, sulla politica dominante e sul controllo delle percezioni. Non è un libro da leggere distrattamente: invita a smarrirsi, a percepire il mondo altrimenti, a osare la visione oltre il visibile.
+
+Polyglottolalia è un manifesto in versi per una sensibilità nuova, post-identitaria e metamorfica. Un viaggio attraverso sogni industriali, rovine sacre, spettri della cultura e cortocircuiti della fede. Un libro che non chiede di essere capito, ma di essere subìto, come un incantesimo, come un risveglio improvviso nel cuore del linguaggio.
+
+Polyglottolalia è un libro che agisce come un vento sotterraneo: muove parole e immagini fino a far vacillare la mente, riscrivendo il confine tra ciò che si vede e ciò che si percepisce. I suoi versi, labirintici e stranianti, aprono finestre su mondi dove il mito, la storia, il cinema sperimentale e le derive della controcultura si intrecciano in un tessuto impossibile da ignorare. Ogni pagina è un invito a esplorare lo straniamento come forma di conoscenza: qui i confini tra sacro e profano, tra finzione e documento, tra cronaca e mito, si dissolvono. Non cerca consenso, ma connessione con chi osa guardare oltre l’egemonia culturale imperante. È un manifesto che apre a letture perturbanti della realtà, un altoparlante silenzioso che risuona nelle pieghe più oscure del pensiero, nelle crepe invisibili della percezione quotidiana. Leggerlo significa abbandonare la sicurezza delle categorie convenzionali e affrontare il mondo come un caleidoscopio inquietante e magnifico.</div>
+        
+      </div>
+    </div></div>
+</section>
+<section id="8" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content sc-gallery-panel" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-container uk-padding" style="background:#000000; color:#ffffff">
+    
+    
+    <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"
+         uk-grid="masonry: true" uk-lightbox="animation: slide; toggle: a"
+         uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: false">
+      <div data-sc-gallery-index="0">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="1">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-2.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-2.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="2">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-3.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-3.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="3">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-4.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-4.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="4">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-5.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-5.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="5">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-6.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-6.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="6">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-7.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-7.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+<div data-sc-gallery-index="7">
+      <a class="uk-inline" data-type="image" href="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-8.jpg" data-caption="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)" aria-label="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/Polyglottolalia-Poesie-dal-Poliverso-ARTOLDO-Sara-Ferro-W-and-Chris-Weil-8.jpg" alt="Polyglottolalia: Poesie dal Poliverso – ARTOLDO (Sara Ferro W. &amp; Chris Weil)">
+      </a>
+    </div>
+    </div>
+  </div></div>
+</section>
+<section id="polyglottolalia-2" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div style="position:relative; width:100vw; height:100vh; overflow:hidden;">
+<video src="media/Polyglottolalia.mp4" autoplay loop muted playsinline
+style="width:100vw;height:100vh;object-fit:cover;display:block; pointer-events:none;" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false"></video>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;" class="uk-text-center uk-light">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-large" style="color: #ffffff;"></h2>
+<div class="live-subtitle uk-heading-large" style="color:#ffffff">Polyglottolalia</div>
+<div class="sc-content-button-pair"><a href="https://amzn.eu/d/05vNBL1x" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="alt-hist" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div class="uk-padding-large" style="background:#000000;">
+<div class="uk-grid-medium uk-child-width-1-1@s uk-flex-middle" uk-grid>
+<div class="uk-width-1-2@m"><img src="media/Alt-Hist-Alta-Storia.jpeg"
+alt="Alt Hist! "
+class="uk-border-rounded uk-box-shadow-large"
+uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:0; offset:120; repeat:false"
+style="width:100%; height:auto; display:block; margin:0 auto;"></div>
+<div class="uk-width-1-2@m uk-padding-medium uk-text-left@m uk-text-center@s">
+<div uk-scrollspy="cls: uk-animation-scale-up uk-animation-fade; delay:120; offset:120; repeat:false">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-2xlarge" style="color: #ffffff;">Alt Hist! </h2>
+<div class="live-subtitle uk-heading-xlarge" style="color:#ffffff">Alta Storia</div>
+<div class="sc-content-button-pair"><a href="https://www.amazon.it/Hist-Alta-Storia-Sara-Ferro/dp/B0GSK491VB" class="sc-core-cta sc-core-cta-default" target="_blank" rel="noopener">Leggi Ora</a></div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="alt-hist-alta-storia" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle" style="background:#ffffff;min-height:60vh;">
+      <div class="uk-container uk-text-justify" style="color:#000000;" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+        
+        <div class="live-subtitle sub-lg" style="color:#000000;">Alt Hist! Alta Storia</div>
+        <div class="live-paragraph p-lg uk-dropcap" style="color:#000000;">Alt Hist! Alta Storia (di Sara Ferro W.) blatera di storia come se la conoscesse a menadito, e come se lo facesse da una sorta di senno divinatorio a posteriori — tra ripensamenti, accelerazioni in avanti e sorpassi audaci, ma strettamente controllati. Dalla dietrologia e ritorno.
+
+Una storia classica, molto dopoguerra, molto prima della nuova.
+
+È una raccolta bilingue di poesia nata in inglese da speculazioni innescate in italiano, basata su input tratti da topoi culturali pescati dalle nuvole degli archetipi pop e da archivi segreti che si rivelano soltanto al suo interno — siate tra i primi a leggerli…
+
+Poesia speculativa rispecchiata in metaversi che rimano sincronicamente con la sincronicità, ovvero in una traduzione (en/it) che rimbalza parabolicamente tra fuochi opposti, sparando a salve in una galleria dei sussurri pacificata.
+
+Una trasposizione del genere narrativo dell’ucronia in forma lirica: la letteratura classica della storia alternativa — alternata e alternativamente alternativa — viene richiamata in vita da titoli che parlano da sé, siano essi Cat and Mouse e Dog Years di Günther Grass, The Waste Land di T. S. Eliot, Infinite Jest di D. F. Wallace, The Plot Against America e Everyman di Philip Roth, The Man in the High Castle di Philip K. Dick — forse lo stesso uomo di The Man Who Sold the World di Bowie e Nirvana, gnosticamente diviso tra verità e inganno. Death Can Dance, Genesis, The Doors, The Animals, Joy Division, ninnenanne infantili e faccende da Guerra Fredda, A Clockwork Orange e The Matrix richiamano Only God Forgives di N. W. Refn e Indiana Jones, mentre serie come Orange Is the New Black e The X-Files esplodono in Dolby Surround su uno schermo davanti al quale i Padri della Sociologia, intellettuali come Pier Paolo Pasolini, pionieri come Carl Gustav Jung, figure dell’occulto divenute popolari come Dion Fortune e magi come Zoroastro fanno apparizioni cameo tra il pubblico.
+
+Il repertorio viene dritto da Breakfast of Champions. Anzi — diciamo piuttosto: sì, più che no — lowbrow, strizza l’occhio all’highbrow, ma solo quanto basta per capirsi a vicenda. Purché si rimanga semiseri, s’intende. Camp senza essere queer, e tuttavia altrettanto votato al pensiero laterale, divergente, impertinente.
+
+Poesia che corre per sovrapposizione e si imprime come un ritornello orecchiabile. Ti mette una pulce nell’orecchio, come un agente segreto con il suo microfono-spia.
+
+Testi come pubblicità esoteriche, un manifesto pubblicitario-poetico, dove il copywriting diventa un jingle filosofico, attraversando una verbosità oltre la verbosità e facendosi canto.</div>
+        
+      </div>
+    </div></div>
+</section>
+<section id="12" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content sc-gallery-panel" style="width:100%;margin-top:auto;margin-bottom:auto;"><div class="uk-container uk-padding" style="background:#000000; color:#ffffff">
+    
+    
+    <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"
+         uk-grid="masonry: true" uk-lightbox="animation: slide; toggle: a"
+         uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: false">
+      <div data-sc-gallery-index="0">
+      <a class="uk-inline" data-type="image" href="media/IMG-4179-dimensioni-grandi.jpg" data-caption="" aria-label="">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/IMG-4179-dimensioni-grandi.jpg" alt="">
+      </a>
+    </div>
+<div data-sc-gallery-index="1">
+      <a class="uk-inline" data-type="image" href="media/IMG-4182-dimensioni-grandi.jpg" data-caption="" aria-label="">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/IMG-4182-dimensioni-grandi.jpg" alt="">
+      </a>
+    </div>
+<div data-sc-gallery-index="2">
+      <a class="uk-inline" data-type="image" href="media/IMG-4180-dimensioni-grandi.jpg" data-caption="" aria-label="">
+        <img class="uk-border-rounded" style="width:100%;height:auto;display:block" src="media/IMG-4180-dimensioni-grandi.jpg" alt="">
+      </a>
+    </div>
+    </div>
+  </div></div>
+</section>
+<section id="alt-hist-alta-storia-2" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#000000;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+<div style="position:relative; width:100vw; height:100vh; overflow:hidden;">
+<video src="media/Alt-Hist-Alta-Storia.mp4" autoplay loop muted playsinline
+style="width:100vw;height:100vh;object-fit:cover;display:block; pointer-events:none;" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false"></video>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;" class="uk-text-center uk-light">
+
+<div uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+<h2 class="live-heading uk-heading-large" style="color: #ffffff;"></h2>
+<div class="live-subtitle uk-heading-xlarge" style="color:#ffffff">Alt Hist! Alta Storia</div>
+<div class="sc-content-button-pair"><a href="https://www.amazon.it/Hist-Alta-Storia-Sara-Ferro/dp/B0GSK491VB" class="sc-core-cta sc-core-cta-dark" target="_blank" rel="noopener">Leggi ora</a></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="kurze-and-pos" class="uk-section uk-section-primary sc-auto-panel" uk-height-viewport="offset-top: true" style="background:#ffffff;min-height:100vh;padding:0;margin:0;display:flex;flex-direction:column;box-sizing:border-box;">
+<div class="sc-panel-content" style="width:100%;margin-top:auto;margin-bottom:auto;">
+        <div class="uk-section uk-section-muted uk-flex uk-flex-center uk-flex-middle"
+             style="background:#ffffff; min-height:60vh;">
+          
+<div class="uk-container uk-width-1-1 uk-padding-large">
+  <div style="max-width:800px;margin:0 auto;">
+    <h2 class="live-heading h-md" style="color:#000000;">Kurze&amp;Pos</h2>
+    <ul class="uk-accordion uk-margin-medium-top" uk-accordion="multiple: false">
+      
+<li>
+  <a class="uk-accordion-title" href="#" style="color:#000000;">
+    <span uk-icon="plus" class="accordion-icon uk-margin-small-right"></span>
+    Chi siamo
+  </a>
+  <div class="uk-accordion-content uk-margin-large-left" style="color:#000000;">
+    <p class="live-paragraph p-md" style="color:#000000;">Kurze&amp;Pos deriva dal tedesco Kurzepos – Kurz + Epos.<br><br>POESIA – POETRY – POESIE<br><br>Pubblichiamo poesia e poeti internazionali in italiano, inglese e tedesco.<br><br>ARTE – ART – KUNST <br>Libro – Book – Buch<br><br>Siamo inoltre specializzati in libri d’arte multimediali.<br><br>La parola “mainstream” è tra i nostri contatti bloccati: celebriamo la cultura alternativa e abbracciamo un’esistenza autonoma e decentralizzata, in sintonia con lo Zeitgeist del futuro.</p>
+    
+  </div>
+</li>
+    
+    </ul>
+  </div>
+</div>
+  
+        </div>
+      </div>
+</section>
+
+<footer class="uk-section uk-section-small" 
+style="background:#000000; color:#ffffff; text-align:center;">
+
+
+
+<p><strong>Kurze&Pos – Libri di poesia</strong></p>
+
+<p>&copy; 2026 Kurze&Pos</p>
+</footer>
+<script id="sc-protected-mail-runtime">
+(function(){
+  var KEY=0x5A;
+  function decode(hex){
+    try{
+      var bytes=[];
+      String(hex||'').replace(/../g,function(pair){bytes.push((parseInt(pair,16)^KEY)&255);return pair;});
+      if(window.TextDecoder) return new TextDecoder().decode(new Uint8Array(bytes));
+      var bin=''; for(var i=0;i<bytes.length;i++) bin+=String.fromCharCode(bytes[i]);
+      try{return decodeURIComponent(escape(bin));}catch(_){return bin;}
+    }catch(_){return '';}
+  }
+
+  function fieldLabel(el){
+    var id=el.id||'';
+    var label=id ? document.querySelector('label[for="'+CSS.escape(id)+'"]') : null;
+    var txt=label ? label.textContent.replace(/\s*\*\s*$/,'').trim() : '';
+    return txt || el.name || el.getAttribute('placeholder') || id || 'Field';
+  }
+
+  function collectMailBody(form){
+    var lines=[];
+    var handledRadio=new Set();
+
+    form.querySelectorAll('input, textarea, select').forEach(function(el){
+      if(el.disabled || el.type==='submit' || el.type==='button' || el.type==='hidden') return;
+
+      var key=fieldLabel(el);
+
+      if(el.type==='radio'){
+        var group=el.name||key;
+        if(handledRadio.has(group)) return;
+        handledRadio.add(group);
+        var selected=form.querySelector('input[type="radio"][name="'+CSS.escape(el.name||'')+'"]:checked');
+        lines.push(key+': '+(selected ? selected.value : 'No selection'));
+        return;
+      }
+
+      if(el.type==='checkbox'){
+        lines.push(key+': '+(el.checked ? (el.value && el.value!=='on' ? el.value : 'Yes') : 'No'));
+        return;
+      }
+
+      if(el.type==='file'){
+        var names=el.files && el.files.length
+          ? Array.from(el.files).map(function(f){return f.name;}).join(', ')
+          : 'No file selected';
+        lines.push(key+': '+names);
+        return;
+      }
+
+      var value=String(el.value||'').trim();
+      lines.push(key+': '+value);
+    });
+
+    return lines.join('\r\n');
+  }
+
+  function composeMail(form){
+    if(!form) return false;
+    if(typeof form.reportValidity==='function' && !form.reportValidity()) return false;
+
+    var email=decode(form.getAttribute('data-sc-protected-mail'));
+    if(!email) return false;
+
+    var subject=form.getAttribute('data-sc-mail-subject')||'Contact';
+    var body=collectMailBody(form);
+    var mailto='mailto:'+email
+      +'?subject='+encodeURIComponent(subject)
+      +'&body='+encodeURIComponent(body);
+
+    /* iOS/Safari: launch mailto directly inside the user's tap gesture. */
+    window.location.href=mailto;
+    return false;
+  }
+
+  window.scComposeProtectedMailto=composeMail;
+
+  function bindMailtoForm(form){
+    if(!form || form.dataset.scMailBound==='1') return;
+    form.dataset.scMailBound='1';
+    form.removeAttribute('action');
+    form.removeAttribute('method');
+
+    form.addEventListener('submit',function(ev){
+      ev.preventDefault();
+      ev.stopPropagation();
+      composeMail(form);
+      return false;
+    });
+  }
+
+  function activate(root){
+    (root||document).querySelectorAll('[data-sc-protected-mail]').forEach(function(el){
+      var email=decode(el.getAttribute('data-sc-protected-mail'));
+      if(!email) return;
+      if(el.matches('a')){
+        el.href='mailto:'+email;
+        var text=el.querySelector('[data-sc-protected-mail-text]');
+        if(text) text.textContent=email;
+      }else if(el.matches('form[data-sc-delivery="mailto"]')){
+        bindMailtoForm(el);
+      }
+    });
+  }
+  function boot(){
+    activate(document);
+    if(window.MutationObserver){
+      new MutationObserver(function(records){
+        records.forEach(function(r){r.addedNodes.forEach(function(n){if(n&&n.nodeType===1) activate(n);});});
+      }).observe(document.documentElement,{childList:true,subtree:true});
+    }
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot,{once:true});
+  else boot();
+})();
+</script>
+<script id="sc-form-file-runtime">
+(function(){
+  function bind(){
+    document.querySelectorAll('.sc-file-native:not([data-sc-file-bound])').forEach(function(input){
+      input.setAttribute('data-sc-file-bound','1');
+      input.addEventListener('change',function(){
+        var out=document.querySelector('[data-sc-file-name="'+input.id+'"]');
+        if(out) out.textContent=input.files&&input.files.length
+          ? Array.from(input.files).map(function(f){return f.name;}).join(', ')
+          : 'No file selected';
+      });
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',bind,{once:true});
+  else bind();
+})();
+</script>
+
+
+<style>
+@media (max-width: 900px) {
+  #site-search-toggle,
+  #site-back-to-top {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    max-width: 40px !important;
+    max-height: 40px !important;
+    padding: 8px !important;
+  }
+  #site-search-toggle > span,
+  #site-back-to-top > span,
+  #site-search-toggle svg,
+  #site-back-to-top svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+/* Search layering:
+   Editor section controls use z-index:2147483000.
+   Search must sit above them, while Lightbox must still sit above Search. */
+body.sc-search-navbar-mode #dynamic-navbar-container,
+body.sc-search-navbar-mode #preview-dynamic-nav,
+body.sc-search-navbar-mode nav.sc-dynamic-navbar{
+  z-index:2147483100 !important;
+  overflow:visible !important;
+}
+#site-search-widget,
+#site-search-panel{
+  z-index:2147483150 !important;
+}
+.uk-lightbox,
+.uk-lightbox.uk-open,
+.uk-lightbox .uk-lightbox-items{
+  z-index:2147483200 !important;
+}
+
+/* Search as a genuine Dynamic Nav Bar item. */
+#site-search-widget.sc-search-navbar{
+  position:relative;
+  z-index:2147483150;
+}
+#site-search-widget.sc-search-navbar #site-search-toggle{
+  width:40px !important;
+  height:40px !important;
+  min-width:40px !important;
+  min-height:40px !important;
+  padding:8px !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  color:var(--navbar-link-color,#111) !important;
+}
+#site-search-widget.sc-search-navbar #site-search-toggle svg{
+  width:20px !important;
+  height:20px !important;
+}
+#site-search-widget.sc-search-navbar #site-search-toggle svg,
+#site-search-widget.sc-search-navbar #site-search-toggle svg *,
+body.sc-search-navbar-mode #site-search-toggle svg,
+body.sc-search-navbar-mode #site-search-toggle svg *{
+  stroke-width:2 !important;
+}
+#site-search-widget.sc-search-navbar #site-search-panel{
+  right:0;
+  left:auto;
+  top:calc(100% + 14px);
+  bottom:auto;
+  transform:none;
+}
+
+/* Mobile navbar Search + menu are above page content, below Lightbox. */
+body.sc-search-navbar-mode #mobile-menu{
+  z-index:2147483120 !important;
+}
+body.sc-search-navbar-mode #mobile-menu-toggle{
+  z-index:2147483140 !important;
+}
+
+/* Mobile navbar search icon sits immediately before the hamburger. */
+@media (max-width:1024px){
+  body.sc-search-navbar-mode #site-search-toggle{
+    position:fixed !important;
+    top:12.5px !important;
+    right:58px !important;
+    left:auto !important;
+    z-index:2147483150 !important;
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+    min-height:40px !important;
+    padding:8px !important;
+    border:0 !important;
+    border-radius:50% !important;
+    background:transparent !important;
+    color:var(--navbar-link-color,#111) !important;
+    box-shadow:none !important;
+  }
+  body.sc-search-navbar-mode #site-search-toggle svg{
+    width:20px !important;
+    height:20px !important;
+  }
+  body.sc-search-navbar-mode #site-search-panel.sc-search-mobile-panel{
+    position:static !important;
+    width:calc(100% - 32px) !important;
+    margin:12px auto 4px !important;
+    transform:none !important;
+    box-shadow:none !important;
+    border-radius:14px !important;
+    order:9999;
+  }
+}
+</style>
+
+<div id="site-search-widget"
+  class="sc-search-navbar"
+  style="position:relative;z-index:2147483150;">
+  <button id="site-search-toggle" type="button" aria-label="Search"
+    style="width:52px;height:52px;border:0;border-radius:50%;background:#fff;color:#111;box-shadow:0 8px 24px rgba(0,0,0,.22);cursor:pointer;display:grid;place-items:center;padding:var(--sc-float-pad,0);">
+    <span uk-icon="search"></span>
+  </button>
+  <div id="site-search-panel"
+    style="display:none;position:absolute;right:0;top:54px;width:min(340px,82vw);background:#fff;color:#111;padding:12px;border-radius:18px;box-shadow:0 12px 36px rgba(0,0,0,.25);">
+    <input id="site-search-input" type="search" placeholder="Search all pages..."
+      style="width:100%;box-sizing:border-box;border:0;border-bottom:2px solid #111;padding:10px 8px;font:inherit;outline:none;">
+    <div id="site-search-results" style="max-height:300px;overflow:auto;margin-top:8px;"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var MODE="export";
+  var NAVBAR_MODE=true;
+  var CURRENT_PAGE_ID="home";
+  var INDEX_B64="W3sicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiIxIiwidGV4dCI6IkhvbWUg4oCUIEFsdCBIaXN0ISBBbHRhIFN0b3JpYSBTYXJhIEZlcnJvIFcuIExlZ2dpIG9yYSBTaW5lZGRvY2hlIFRvcmlubyBTYXJhIEZlcnJvIFcuIExlZ2dpIG9yYSBQb2x5Z2xvdHRvbGFsaWE6IFBvZXNpZSBkYWwgUG9saXZlcnNvIEFSVE9MRE8gTGVnZ2kgb3JhIiwidXJsIjoiaW5kZXguaHRtbCJ9LHsicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiJzaW5lZGRvY2hlLXRvcmlubyIsInRleHQiOiJIb21lIOKAlCBTaW5lZGRvY2hlIFRvcmlubyDigJQgU2luZWRkb2NoZSBUb3Jpbm8gR0UtTUktVE8gTGVnZ2kgb3JhIiwidXJsIjoiaW5kZXguaHRtbCJ9LHsicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiJzaW5lZGRvY2hlLXRvcmluby1nZS1taS10byIsInRleHQiOiJIb21lIOKAlCBTaW5lZGRvY2hlIFRvcmlubzogR0UtTUktVE8gUG9lbWV0dG8gcGFydGUgZGkgdW5hIHRyaWxvZ2lhIGluIHZlcnNpIHN1bGxlIG1pdG9sb2dpZSBhdHRvcm5vIGFsbCdleCB0cmlhbmdvbG8gaW5kdXN0cmlhbGUgR0UtTUktVE8gcHJvZHV0dGl2byBkaSB1bmEgc2VtaW90aWNhIGdlbmVyYXRpdmEgc2VtaXNlcmlhIGUgc2NhbnpvbmF0YSwgYWZmaWxhdGEsIGF2dml0YXRhLCBmaW50YW1lbnRlIHN2YXBvcmF0YSwgdGF0dGljYW1lbnRlIHNwaW50YSwgYXR0ZW50YSwgbGV0dHVyYSB1bHRyYSB2ZWxvY2UsIHZhIGxldHRhIGxlbnRhLCBkaSBsaW5ndWEgZnJhbmNhIGJpZm9yY3V0YSBlIGx1bmdhIGdpdHRhdGEsIGF6aW9uZS1yZWF6aW9uZSwgYXBwYXNzaW9uYXRhLCBzcGFzc2lvbmF0YSwgc3BhZXNhdGEsIHR1cmJhdGEsIHRlb3JpY2FtZW50ZSBjb250dXJiYW50ZSBlIGNvbiBxdWVzdG8gbWFuaWZlc3RvIHBvZXRpY28gc29jaWFsbWVudGUgbWFuaWZlc3RhdGEgLSBzb2Npb2xvZ2ljYW1lbnRlIGNvbnRlc3RhdGFyaWEsIGNoZSBzaWEgcHVyZSBjb250ZXN0YXRhISBUcmEgY3VsdHVyYSBwb3AsIHRyYXAgZSBjcml0aWNhIHNvY2lhbGUsIGxhIHBvZXRlc3NhIFNhcmEgRmVycm8gVy4gc2NoaXp6YSBs4oCZaW1tYWdpbmUgZGkgdW4gcXVhcnRpZXJlIGRpIHVuYSBjaXR0w6AgZGVjYWR1dGEgZSBzb3ByYXZ2aXNzdXRhLCBpdmkgbGlyaWNhbWVudGUgdHJhc2Zvcm1hdGEgaW4gcGnDuSB2ZXJhLCBwacO5IGZyYWdpbGUsIHBpw7kgc3VycmVhbGUgLSBjb21lIHNvbG8gdW4gcG9lbWV0dG8gc2F0aXJpY28gcHXDsiBmYXJlLiBWZXJzaSBhY2NlbGVyYXRpIGUgYXJyaWNjaGl0aSBkaSBtZXRhZm9yZSBzZWdyZXRlIGRlc2NyaXZvbm8gbGEgdml0YSBxdW90aWRpYW5hIGludGVsbGV0dHVhbGUgYW5ub2lhdGEgZSBpcnJldGl0YSBkaSB1bm8gemVpdGdlaXN0IGludG9zc2ljYXRvIGRhIHNtb2cgZSBuZWdhemlvbmlzbW8gZGVsbGEgc29jaWV0w6Agb3N0YWdnaW8gZGkgdW5hIG51dm9sYSB3b2tlLCBjaGUgbm9uIHNvbG8gZmEgcGlvdmVyZSBsYWNyaW1lIGNvbnRhbWluYXRlIHN1IHVuYSBwb3BvbGF6aW9uZSByYWxsZW50YXRhIG1hIGNoZSBmYSBvbWJyYSBzdSB1bmEgY2l0dMOgIGNoZSB2aXZlIGkgZ2lvcm5pIHBpw7kgYmVsbGkgY29tZSBub3N0YWxnaWNpIGRpIHVuIHRlbXBvIHBhc3NhdG8gYWxs4oCZaW5zZWduYSBkaSBpZGVhbGkgbWFpIHRyb3ZhdGkuIEzigJlhdXRyaWNlIHNpIG11b3ZlIGFnaWxtZW50ZSB0cmEgc2F0aXJhIGUgcG9lc2lhIGJpLWVtb3ppb25hbGUsIGFwcHVudG8gdHJhIHJpc28gZSByYWJiaWEsIGx1Y2UgZSBvc2N1cml0w6AsIGNvbnNlbnNvIGUgdmVyaXTDoCwgYmVsbGUgYXJ0aSBlIHRlbmRlIGRpIHBsYXN0aWNhIGF0dGUgYSBjb3ByaXJlIGxhIGZhY2NpYXRhIGRpIHVu4oCZaW1wb3NzaWJpbGUgZ2VudHJpZmljYXppb25lLCB0YW50byB0ZW11dGEsIG1haSBhcnJpdmF0YSwgZm9yc2UgZW1pZ3JhdGEsIGNvbXVucXVlIGRlZmxhZ3JhdGEgZSBkZXJhZ2xpYXRhIHBlcmNow6ksIGFkIG9nbmkgbW9kbywgZGEgaW5kaWdlbmkgZSBwYXJ2ZW51ZSBub24gYWNjZXR0YXRhLiBQcm9iYWJpbG1lbnRlIGzigJlvcGVyYSBwacO5IHByb3ZvY2F0aXZhLCByZWFsZSBlIG1hZ2ljYW1lbnRlIHJlYWxpc3RpY2EgbWFpIHNjcml0dGEgc3UgcXVlc3RhIGNpdHTDoCBkZWxs4oCZZXgtdHJpYW5nb2xvIGluZHVzdHJpYWxlIGF0dHJhdmVyc2F0byBpbCBjb25maW5lIGRlbGzigJlpbW1hZ2luYXppb25lIG9sdHJlIGxhIEJhcnJpZXJhIGRpIE1pbGFubywgZG92ZSBsZSBwb3NlIGNoZSBpbiB1biBwcmltbyBtb21lbnRvIHBlciBsYSBzb25vcml0w6Agdml2YWNlIGUgc3F1aWxsYW50ZSBkZWwgcml0bW8gcG9zc29ubyBzZW1icmFyZSBzdXBlcmZpY2llLCByaWFjcXVpc3Rhbm8gdW4gdG9ubyBwacO5IHNlcmlhbWVudGUgY29ubm90YXRvIGNoZSBuZSBmYSBwb3N0YXppb25pIHVyYmFuZSBkaSBhZ2d1YXRpIGUgYWZmb25kaSBwZXIgdW5hIGNyaXRpY2EgZGVsbGUgZm9ybWUgY2l2aWNoZSBjaGUgc211b3Zhbm8gYSBwacO5IGZyYW5jaGV6emEgcmlndWFyZG8gbG8gc3RhdG8gaW4gY3VpIHZlcnNhbm8gbGUgbm9zdHJlIGNpdHTDoCBlIHJlZ2FsaW5vIHNxdWFyY2kgaW4gY3VpIHRyb3ZhcmUgc3B1bnRpIHZpc2lvbmFyaSBvbHRyZSBmYWNpbGkgYnVvbmlzbWkgZSB2aXNpb25pIHVsdHJhIHRyYWRpemlvbmFsaSBuZWwgYmVuZSBlIG5lbCBtYWxlIGltcHJlZ25hdGUgZGkgZWdlbW9uaWEgY3VsdHVyYWxlIGlkZW9sb2dpY2EuIFBlciB1bm8gc3Byb25lIGFkIHVuIGFsdGVybmF0aXZvIGFwcHJvY2NpbyBhbGxhIHNvc3RlbmliaWxpdMOgLCBhbGxhIHZpdmliaWxpdMOgLCBhbGzigJl1dG9waWEgdXJiYW5hLCBhbCBidW9uIHZpdmVyZSAobWFnYXJpIHNvbG8gcGVyIGFsY3VuaSBvcm1haSByZXNpZHVhbGksIGNoZSBub24gc2kgcGllZ2FubyBhbGxlIG51b3ZlIGZpbnRlIHJlZ29sZSBkZWwgQnVvbiBWaXZlcmUgZGV0dGF0ZSBkYSB1biBwcm9nZXR0byBzY3JpdGVyaWF0byBkaSBib2NjYSBidW9uYSBlIHNpc3RlbWF0aWNhIGNoaXVzdXJhIGRpIHVuIG9jY2hpbykgZSBhbCBidW9uIGdvdmVybm8uIFVuIG1pbmltYWxlIG1hbmllcmlzbW8gdGF0dGljbyBwZXIgaW5mYXJjaXJlIGFsIG1lZ2xpbyB1bm8gc3BhY2NhdG8gdXJiYW5vIGNvbWUgdW5vIHNxdWlzaXRvIHRyYW1lenppbm8gdG9yaW5lc2Ugcml2aXNpdGF0bywgdW5hIHN0cmF0ZWdpYSBsZXNzaWNhbGUgZSBzaW50YXR0aWNhIGFjY2VsZXJhdGEgbWEgY2hlIHNpIGZlcm1hIGEgdHV0dGkgaSBzZW1hZm9yaSByb3NzaSBlZCDDqCBnZW50aWxlIHBlciBzdHJhZGEgbm9uIHNvbG8gaW4gcHJvc3NpbWl0w6AgZGVsbGUgc3RyaXNjZS4gTmVsIHNvbGNvIGRlbGzigJlhdHRlZ2dpYW1lbnRvIOKAnGNhbXDigJ0gw6ggbGEgYnVnaWEgY2hlIHJhY2NvbnRhIGxhIHZlcml0w6AgbmFzY29zdGEgbmVsbGUgcGllZ2hlIGRlbGxlIHBvc2UgZSBkaSB1biBwb3NhcmUgY2hlIMOoIHNvcHBlc2FyZSwgY29tZSBpbCDigJxjYW1w4oCdIGluZmF0dGkgZmEsIHRyYSBwb2xpdGljYSBlIHBvZXRpY2EsIHNvcnRhIGRpIGJpb2dyYWZpYSBnb25maWF0YSBkYSBpbmNlc3NhbnRlIHBvc3Rtb2Rlcm5vIGNpdGF6aW9uaXNtbyBjaGUgbmVsbGEgc3BlcnNvbmFsaXp6YXppb25lIGRvdnV0YSBhbCBkYXRvIGVzdGVybm8gYXJjaGl2aWF0byBuZWxsYSBtZW1vcmlhIHBvcCBzdHJhdm9sdGEgZSByaWdpcmF0YSBkYWxsYSBwYXJvZGlhIG9iYmxpZ2EgZSBpbXBvbmUgdW5hIG51b3ZhIHZpc2lvbmUgZGVsIHRlc3RvIGUgdGVzc3V0byBjdWx0dXJhbGUgZGkgdW5hIGNpdHTDoCBhbHRyaW1lbnRpIGFubmVnYXRhIGluIGFuYWxpc2kgY3VsdHVyYWxpIGRvbWluYW50aSBlIHN0YW5jaGUuIE5kUjogUGVyIGNvbXBvcnJlIGxhIHRyaWxvZ2lhIHBvZXRpY2EgR0UtTUktVE8gbGEgcG9ldGVzc2EgaGEgZmF0dG8gZXNwZXJpZW56YSBjb25jcmV0YSBkZWxsZSB0cmUgY2l0dMOgIGluIHF1ZXN0aW9uZTogbmF0YWxpIG1pbGFuZXNpLCBkZWNhZGkgZ2Vub3Zlc2kgZSBvcml6em9udGkgZGkgZ2xvcmlhIChzZnVtYXRpKSBzdWxsZSBjaW1lIHRvcmluZXNpLiBNZW50cmUgbGUgcHJpbWUgZHVlIGxlIHNvbm8gY2FwaXRhdGUsIFRvcmlubyDDqCBzdGF0YSBzY2VsdGEgY29tZSByZXNpZGVuemEgYWxtZW5vIHRlbXBvcmFuZWEgcHJvcHJpbyBwZXIgY2hpdWRlcmUgaWwgY2VyY2hpbyBhdHRvcm5vIGFsIHRyaWFuZ29sbyBpbmR1c3RyaWFsZS4iLCJ1cmwiOiJpbmRleC5odG1sIn0seyJwYWdlSWQiOiJob21lIiwicGFnZVRpdGxlIjoiSG9tZSIsImFuY2hvciI6IjQiLCJ0ZXh0IjoiSG9tZSIsInVybCI6ImluZGV4Lmh0bWwifSx7InBhZ2VJZCI6ImhvbWUiLCJwYWdlVGl0bGUiOiJIb21lIiwiYW5jaG9yIjoic2luZWRkb2NoZS10b3Jpbm8tMiIsInRleHQiOiJIb21lIOKAlCBTaW5lZGRvY2hlIFRvcmlubyBMZWdnaSBvcmEiLCJ1cmwiOiJpbmRleC5odG1sIn0seyJwYWdlSWQiOiJob21lIiwicGFnZVRpdGxlIjoiSG9tZSIsImFuY2hvciI6InBvbHlnbG90dG9sYWxpYSIsInRleHQiOiJIb21lIOKAlCBQb2x5Z2xvdHRvbGFsaWEg4oCUIFBvbHlnbG90dG9sYWxpYSBQb2VzaWUgZGFsIFBvbGl2ZXJzbyBMZWdnaSBvcmEiLCJ1cmwiOiJpbmRleC5odG1sIn0seyJwYWdlSWQiOiJob21lIiwicGFnZVRpdGxlIjoiSG9tZSIsImFuY2hvciI6InBvbHlnbG90dG9sYWxpYS1wb2VzaWUtZGFsLXBvbGl2ZXJzbyIsInRleHQiOiJIb21lIOKAlCBQb2x5Z2xvdHRvbGFsaWE6IFBvZXNpZSBkYWwgUG9saXZlcnNvIFBvbHlnbG90dG9sYWxpYSBub24gc2kgbGVnZ2U6IHNpIGF0dHJhdmVyc2EuIMOIIHVuIHRlcnJpdG9yaW8gbGluZ3Vpc3RpY28gaW4gc3RhdG8gZGkgdHJhbmNlLCBkb3ZlIGxlIHBhcm9sZSBtdXRhbm8gcGVsbGUgZSBsZSBpbW1hZ2luaSBzaSBwaWVnYW5vLCBzaSBkZWZvcm1hbm8sIHNpIGxpYmVyYW5vLiBPZ25pIHBvZXNpYSDDqCB1biB2YXJjbywgdW4gY29ydG8gY2lyY3VpdG8gdHJhIG1pdG8gZSBwb3N0dW1hbmVzaW1vLCB0cmEgdmlzaW9uaSBtaXN0aWNoZSBlIGNyb25hY2hlIGRpZ2l0YWxpLCB0cmEgY2nDsiBjaGUgcmVzdGEgZGVsIHNhY3JvIGUgY2nDsiBjaGUgcHVsc2EgbmVsIHJ1bW9yZSBkaSBmb25kbyBkZWxsZSBub3N0cmUgY2l0dMOgLiBRdWkgbGEgbGluZ3VhIG5vbiBjb25zb2xhLCBtYSByaXZvbHRhLiDDiCBzdHJ1bWVudG8sIGFybWEsIHJpdG8uIFNjYXJkaW5hIGxhIGdyYW1tYXRpY2EgZGVsIHBvdGVyZSwgaW5jcmluYSBsYSB2aXNpb25lIGVkdWNhdGEsIGluZnJhbmdlIGlsIGZpbHRybyBkZWwg4oCccGVuc2llcm8gY29ycmV0dG/igJ0gY2hlIHBsYXNtYSBpbCByZWFsZS4gUmliYWx0YW5vIGNvbnN1ZXR1ZGluaSwgZGlzdHVyYmFubyBsYSBsZXR0dXJhIGUgaW5zaW51YW5vIGRvbWFuZGUgc3VsbGEgcmVhbHTDoCwgc3VsbGEgcG9saXRpY2EgZG9taW5hbnRlIGUgc3VsIGNvbnRyb2xsbyBkZWxsZSBwZXJjZXppb25pLiBOb24gw6ggdW4gbGlicm8gZGEgbGVnZ2VyZSBkaXN0cmF0dGFtZW50ZTogaW52aXRhIGEgc21hcnJpcnNpLCBhIHBlcmNlcGlyZSBpbCBtb25kbyBhbHRyaW1lbnRpLCBhIG9zYXJlIGxhIHZpc2lvbmUgb2x0cmUgaWwgdmlzaWJpbGUuIFBvbHlnbG90dG9sYWxpYSDDqCB1biBtYW5pZmVzdG8gaW4gdmVyc2kgcGVyIHVuYSBzZW5zaWJpbGl0w6AgbnVvdmEsIHBvc3QtaWRlbnRpdGFyaWEgZSBtZXRhbW9yZmljYS4gVW4gdmlhZ2dpbyBhdHRyYXZlcnNvIHNvZ25pIGluZHVzdHJpYWxpLCByb3ZpbmUgc2FjcmUsIHNwZXR0cmkgZGVsbGEgY3VsdHVyYSBlIGNvcnRvY2lyY3VpdGkgZGVsbGEgZmVkZS4gVW4gbGlicm8gY2hlIG5vbiBjaGllZGUgZGkgZXNzZXJlIGNhcGl0bywgbWEgZGkgZXNzZXJlIHN1YsOsdG8sIGNvbWUgdW4gaW5jYW50ZXNpbW8sIGNvbWUgdW4gcmlzdmVnbGlvIGltcHJvdnZpc28gbmVsIGN1b3JlIGRlbCBsaW5ndWFnZ2lvLiBQb2x5Z2xvdHRvbGFsaWEgw6ggdW4gbGlicm8gY2hlIGFnaXNjZSBjb21lIHVuIHZlbnRvIHNvdHRlcnJhbmVvOiBtdW92ZSBwYXJvbGUgZSBpbW1hZ2luaSBmaW5vIGEgZmFyIHZhY2lsbGFyZSBsYSBtZW50ZSwgcmlzY3JpdmVuZG8gaWwgY29uZmluZSB0cmEgY2nDsiBjaGUgc2kgdmVkZSBlIGNpw7IgY2hlIHNpIHBlcmNlcGlzY2UuIEkgc3VvaSB2ZXJzaSwgbGFiaXJpbnRpY2kgZSBzdHJhbmlhbnRpLCBhcHJvbm8gZmluZXN0cmUgc3UgbW9uZGkgZG92ZSBpbCBtaXRvLCBsYSBzdG9yaWEsIGlsIGNpbmVtYSBzcGVyaW1lbnRhbGUgZSBsZSBkZXJpdmUgZGVsbGEgY29udHJvY3VsdHVyYSBzaSBpbnRyZWNjaWFubyBpbiB1biB0ZXNzdXRvIGltcG9zc2liaWxlIGRhIGlnbm9yYXJlLiBPZ25pIHBhZ2luYSDDqCB1biBpbnZpdG8gYSBlc3Bsb3JhcmUgbG8gc3RyYW5pYW1lbnRvIGNvbWUgZm9ybWEgZGkgY29ub3NjZW56YTogcXVpIGkgY29uZmluaSB0cmEgc2Fjcm8gZSBwcm9mYW5vLCB0cmEgZmluemlvbmUgZSBkb2N1bWVudG8sIHRyYSBjcm9uYWNhIGUgbWl0bywgc2kgZGlzc29sdm9uby4gTm9uIGNlcmNhIGNvbnNlbnNvLCBtYSBjb25uZXNzaW9uZSBjb24gY2hpIG9zYSBndWFyZGFyZSBvbHRyZSBs4oCZZWdlbW9uaWEgY3VsdHVyYWxlIGltcGVyYW50ZS4gw4ggdW4gbWFuaWZlc3RvIGNoZSBhcHJlIGEgbGV0dHVyZSBwZXJ0dXJiYW50aSBkZWxsYSByZWFsdMOgLCB1biBhbHRvcGFybGFudGUgc2lsZW56aW9zbyBjaGUgcmlzdW9uYSBuZWxsZSBwaWVnaGUgcGnDuSBvc2N1cmUgZGVsIHBlbnNpZXJvLCBuZWxsZSBjcmVwZSBpbnZpc2liaWxpIGRlbGxhIHBlcmNlemlvbmUgcXVvdGlkaWFuYS4gTGVnZ2VybG8gc2lnbmlmaWNhIGFiYmFuZG9uYXJlIGxhIHNpY3VyZXp6YSBkZWxsZSBjYXRlZ29yaWUgY29udmVuemlvbmFsaSBlIGFmZnJvbnRhcmUgaWwgbW9uZG8gY29tZSB1biBjYWxlaWRvc2NvcGlvIGlucXVpZXRhbnRlIGUgbWFnbmlmaWNvLiIsInVybCI6ImluZGV4Lmh0bWwifSx7InBhZ2VJZCI6ImhvbWUiLCJwYWdlVGl0bGUiOiJIb21lIiwiYW5jaG9yIjoiOCIsInRleHQiOiJIb21lIiwidXJsIjoiaW5kZXguaHRtbCJ9LHsicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiJwb2x5Z2xvdHRvbGFsaWEtMiIsInRleHQiOiJIb21lIOKAlCBQb2x5Z2xvdHRvbGFsaWEgTGVnZ2kgb3JhIiwidXJsIjoiaW5kZXguaHRtbCJ9LHsicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiJhbHQtaGlzdCIsInRleHQiOiJIb21lIOKAlCBBbHQgSGlzdCEg4oCUIEFsdCBIaXN0ISBBbHRhIFN0b3JpYSBMZWdnaSBPcmEiLCJ1cmwiOiJpbmRleC5odG1sIn0seyJwYWdlSWQiOiJob21lIiwicGFnZVRpdGxlIjoiSG9tZSIsImFuY2hvciI6ImFsdC1oaXN0LWFsdGEtc3RvcmlhIiwidGV4dCI6IkhvbWUg4oCUIEFsdCBIaXN0ISBBbHRhIFN0b3JpYSBBbHQgSGlzdCEgQWx0YSBTdG9yaWEgKGRpIFNhcmEgRmVycm8gVy4pIGJsYXRlcmEgZGkgc3RvcmlhIGNvbWUgc2UgbGEgY29ub3NjZXNzZSBhIG1lbmFkaXRvLCBlIGNvbWUgc2UgbG8gZmFjZXNzZSBkYSB1bmEgc29ydGEgZGkgc2Vubm8gZGl2aW5hdG9yaW8gYSBwb3N0ZXJpb3JpIOKAlCB0cmEgcmlwZW5zYW1lbnRpLCBhY2NlbGVyYXppb25pIGluIGF2YW50aSBlIHNvcnBhc3NpIGF1ZGFjaSwgbWEgc3RyZXR0YW1lbnRlIGNvbnRyb2xsYXRpLiBEYWxsYSBkaWV0cm9sb2dpYSBlIHJpdG9ybm8uIFVuYSBzdG9yaWEgY2xhc3NpY2EsIG1vbHRvIGRvcG9ndWVycmEsIG1vbHRvIHByaW1hIGRlbGxhIG51b3ZhLiDDiCB1bmEgcmFjY29sdGEgYmlsaW5ndWUgZGkgcG9lc2lhIG5hdGEgaW4gaW5nbGVzZSBkYSBzcGVjdWxhemlvbmkgaW5uZXNjYXRlIGluIGl0YWxpYW5vLCBiYXNhdGEgc3UgaW5wdXQgdHJhdHRpIGRhIHRvcG9pIGN1bHR1cmFsaSBwZXNjYXRpIGRhbGxlIG51dm9sZSBkZWdsaSBhcmNoZXRpcGkgcG9wIGUgZGEgYXJjaGl2aSBzZWdyZXRpIGNoZSBzaSByaXZlbGFubyBzb2x0YW50byBhbCBzdW8gaW50ZXJubyDigJQgc2lhdGUgdHJhIGkgcHJpbWkgYSBsZWdnZXJsaeKApiBQb2VzaWEgc3BlY3VsYXRpdmEgcmlzcGVjY2hpYXRhIGluIG1ldGF2ZXJzaSBjaGUgcmltYW5vIHNpbmNyb25pY2FtZW50ZSBjb24gbGEgc2luY3JvbmljaXTDoCwgb3Z2ZXJvIGluIHVuYSB0cmFkdXppb25lIChlbi9pdCkgY2hlIHJpbWJhbHphIHBhcmFib2xpY2FtZW50ZSB0cmEgZnVvY2hpIG9wcG9zdGksIHNwYXJhbmRvIGEgc2FsdmUgaW4gdW5hIGdhbGxlcmlhIGRlaSBzdXNzdXJyaSBwYWNpZmljYXRhLiBVbmEgdHJhc3Bvc2l6aW9uZSBkZWwgZ2VuZXJlIG5hcnJhdGl2byBkZWxs4oCZdWNyb25pYSBpbiBmb3JtYSBsaXJpY2E6IGxhIGxldHRlcmF0dXJhIGNsYXNzaWNhIGRlbGxhIHN0b3JpYSBhbHRlcm5hdGl2YSDigJQgYWx0ZXJuYXRhIGUgYWx0ZXJuYXRpdmFtZW50ZSBhbHRlcm5hdGl2YSDigJQgdmllbmUgcmljaGlhbWF0YSBpbiB2aXRhIGRhIHRpdG9saSBjaGUgcGFybGFubyBkYSBzw6ksIHNpYW5vIGVzc2kgQ2F0IGFuZCBNb3VzZSBlIERvZyBZZWFycyBkaSBHw7xudGhlciBHcmFzcywgVGhlIFdhc3RlIExhbmQgZGkgVC4gUy4gRWxpb3QsIEluZmluaXRlIEplc3QgZGkgRC4gRi4gV2FsbGFjZSwgVGhlIFBsb3QgQWdhaW5zdCBBbWVyaWNhIGUgRXZlcnltYW4gZGkgUGhpbGlwIFJvdGgsIFRoZSBNYW4gaW4gdGhlIEhpZ2ggQ2FzdGxlIGRpIFBoaWxpcCBLLiBEaWNrIOKAlCBmb3JzZSBsbyBzdGVzc28gdW9tbyBkaSBUaGUgTWFuIFdobyBTb2xkIHRoZSBXb3JsZCBkaSBCb3dpZSBlIE5pcnZhbmEsIGdub3N0aWNhbWVudGUgZGl2aXNvIHRyYSB2ZXJpdMOgIGUgaW5nYW5uby4gRGVhdGggQ2FuIERhbmNlLCBHZW5lc2lzLCBUaGUgRG9vcnMsIFRoZSBBbmltYWxzLCBKb3kgRGl2aXNpb24sIG5pbm5lbmFubmUgaW5mYW50aWxpIGUgZmFjY2VuZGUgZGEgR3VlcnJhIEZyZWRkYSwgQSBDbG9ja3dvcmsgT3JhbmdlIGUgVGhlIE1hdHJpeCByaWNoaWFtYW5vIE9ubHkgR29kIEZvcmdpdmVzIGRpIE4uIFcuIFJlZm4gZSBJbmRpYW5hIEpvbmVzLCBtZW50cmUgc2VyaWUgY29tZSBPcmFuZ2UgSXMgdGhlIE5ldyBCbGFjayBlIFRoZSBYLUZpbGVzIGVzcGxvZG9ubyBpbiBEb2xieSBTdXJyb3VuZCBzdSB1bm8gc2NoZXJtbyBkYXZhbnRpIGFsIHF1YWxlIGkgUGFkcmkgZGVsbGEgU29jaW9sb2dpYSwgaW50ZWxsZXR0dWFsaSBjb21lIFBpZXIgUGFvbG8gUGFzb2xpbmksIHBpb25pZXJpIGNvbWUgQ2FybCBHdXN0YXYgSnVuZywgZmlndXJlIGRlbGzigJlvY2N1bHRvIGRpdmVudXRlIHBvcG9sYXJpIGNvbWUgRGlvbiBGb3J0dW5lIGUgbWFnaSBjb21lIFpvcm9hc3RybyBmYW5ubyBhcHBhcml6aW9uaSBjYW1lbyB0cmEgaWwgcHViYmxpY28uIElsIHJlcGVydG9yaW8gdmllbmUgZHJpdHRvIGRhIEJyZWFrZmFzdCBvZiBDaGFtcGlvbnMuIEFuemkg4oCUIGRpY2lhbW8gcGl1dHRvc3RvOiBzw6wsIHBpw7kgY2hlIG5vIOKAlCBsb3dicm93LCBzdHJpenphIGzigJlvY2NoaW8gYWxs4oCZaGlnaGJyb3csIG1hIHNvbG8gcXVhbnRvIGJhc3RhIHBlciBjYXBpcnNpIGEgdmljZW5kYS4gUHVyY2jDqSBzaSByaW1hbmdhIHNlbWlzZXJpLCBz4oCZaW50ZW5kZS4gQ2FtcCBzZW56YSBlc3NlcmUgcXVlZXIsIGUgdHV0dGF2aWEgYWx0cmV0dGFudG8gdm90YXRvIGFsIHBlbnNpZXJvIGxhdGVyYWxlLCBkaXZlcmdlbnRlLCBpbXBlcnRpbmVudGUuIFBvZXNpYSBjaGUgY29ycmUgcGVyIHNvdnJhcHBvc2l6aW9uZSBlIHNpIGltcHJpbWUgY29tZSB1biByaXRvcm5lbGxvIG9yZWNjaGlhYmlsZS4gVGkgbWV0dGUgdW5hIHB1bGNlIG5lbGzigJlvcmVjY2hpbywgY29tZSB1biBhZ2VudGUgc2VncmV0byBjb24gaWwgc3VvIG1pY3JvZm9uby1zcGlhLiBUZXN0aSBjb21lIHB1YmJsaWNpdMOgIGVzb3RlcmljaGUsIHVuIG1hbmlmZXN0byBwdWJibGljaXRhcmlvLXBvZXRpY28sIGRvdmUgaWwgY29weXdyaXRpbmcgZGl2ZW50YSB1biBqaW5nbGUgZmlsb3NvZmljbywgYXR0cmF2ZXJzYW5kbyB1bmEgdmVyYm9zaXTDoCBvbHRyZSBsYSB2ZXJib3NpdMOgIGUgZmFjZW5kb3NpIGNhbnRvLiIsInVybCI6ImluZGV4Lmh0bWwifSx7InBhZ2VJZCI6ImhvbWUiLCJwYWdlVGl0bGUiOiJIb21lIiwiYW5jaG9yIjoiMTIiLCJ0ZXh0IjoiSG9tZSIsInVybCI6ImluZGV4Lmh0bWwifSx7InBhZ2VJZCI6ImhvbWUiLCJwYWdlVGl0bGUiOiJIb21lIiwiYW5jaG9yIjoiYWx0LWhpc3QtYWx0YS1zdG9yaWEtMiIsInRleHQiOiJIb21lIOKAlCBBbHQgSGlzdCEgQWx0YSBTdG9yaWEgTGVnZ2kgb3JhIiwidXJsIjoiaW5kZXguaHRtbCJ9LHsicGFnZUlkIjoiaG9tZSIsInBhZ2VUaXRsZSI6IkhvbWUiLCJhbmNob3IiOiJrdXJ6ZS1hbmQtcG9zIiwidGV4dCI6IkhvbWUg4oCUIEt1cnplJlBvcyDigJQgS3VyemUmUG9zIENoaSBzaWFtbyBLdXJ6ZSZQb3MgZGVyaXZhIGRhbCB0ZWRlc2NvIEt1cnplcG9zIOKAkyBLdXJ6ICsgRXBvcy4gUE9FU0lBIOKAkyBQT0VUUlkg4oCTIFBPRVNJRSBQdWJibGljaGlhbW8gcG9lc2lhIGUgcG9ldGkgaW50ZXJuYXppb25hbGkgaW4gaXRhbGlhbm8sIGluZ2xlc2UgZSB0ZWRlc2NvLiBBUlRFIOKAkyBBUlQg4oCTIEtVTlNUIExpYnJvIOKAkyBCb29rIOKAkyBCdWNoIFNpYW1vIGlub2x0cmUgc3BlY2lhbGl6emF0aSBpbiBsaWJyaSBk4oCZYXJ0ZSBtdWx0aW1lZGlhbGkuIExhIHBhcm9sYSDigJxtYWluc3RyZWFt4oCdIMOoIHRyYSBpIG5vc3RyaSBjb250YXR0aSBibG9jY2F0aTogY2VsZWJyaWFtbyBsYSBjdWx0dXJhIGFsdGVybmF0aXZhIGUgYWJicmFjY2lhbW8gdW7igJllc2lzdGVuemEgYXV0b25vbWEgZSBkZWNlbnRyYWxpenphdGEsIGluIHNpbnRvbmlhIGNvbiBsbyBaZWl0Z2Vpc3QgZGVsIGZ1dHVyby4iLCJ1cmwiOiJpbmRleC5odG1sIn1d";
+  var ROUTES_B64="eyJob21lIjoiaW5kZXguaHRtbCJ9";
+  var SEARCH_NO_RESULTS="Prova un altra parola...";
+  var SEARCH_PAGE_LABEL="Pagina";
+  var widget=document.getElementById('site-search-widget');
+  var toggle=document.getElementById('site-search-toggle');
+  var panel=document.getElementById('site-search-panel');
+  var input=document.getElementById('site-search-input');
+  var results=document.getElementById('site-search-results');
+  if(!widget||!toggle||!panel||!input||!results) return;
+
+  function decode(b64){
+    try{return JSON.parse(decodeURIComponent(escape(atob(b64||''))))}catch(e){return []}
+  }
+  var INDEX=decode(INDEX_B64);
+  var ROUTES=decode(ROUTES_B64) || {};
+
+  function mobileMenu(){
+    return document.getElementById('mobile-menu');
+  }
+  function hamburger(){
+    return document.getElementById('mobile-menu-toggle');
+  }
+
+  function mountNavbarSearch(){
+    if(!NAVBAR_MODE) return;
+
+    document.body.classList.add('sc-search-navbar-mode');
+
+    var mobile=window.matchMedia('(max-width:1024px)').matches;
+    var nav=
+      document.getElementById('dynamic-navbar-container') ||
+      document.querySelector('#preview-dynamic-nav .sc-dynamic-navbar') ||
+      document.querySelector('nav.sc-dynamic-navbar') ||
+      document.querySelector('nav.uk-navbar-container');
+    var mm=mobileMenu();
+
+    if(mobile){
+      if(widget.parentNode!==document.body) document.body.appendChild(widget);
+      widget.style.position='static';
+      panel.classList.add('sc-search-mobile-panel');
+
+      /* Search belongs after navigation links. openPanel() re-appends it after
+         any Mobile Menu rebuild, so it always survives regenerated menu content. */
+      if(mm && panel.parentNode!==mm) mm.appendChild(panel);
+    }else{
+      panel.classList.remove('sc-search-mobile-panel');
+      if(nav && widget.parentNode!==nav) nav.appendChild(widget);
+      if(panel.parentNode!==widget) widget.appendChild(panel);
+      widget.style.marginLeft='auto';
+      widget.style.marginRight='12px';
+      widget.style.flex='0 0 auto';
+    }
+
+    try{ if(window.UIkit) UIkit.update(document.body); }catch(e){}
+  }
+
+  function openPanel(){
+    if(NAVBAR_MODE && window.matchMedia('(max-width:1024px)').matches){
+      var mm=mobileMenu();
+      var hb=hamburger();
+
+      /* The mobile-menu builder clears/recreates its links. Rebuild first,
+         then append Search after those links so it cannot be discarded. */
+      try{
+        if(typeof window.__rebuildMobileMenu==='function') window.__rebuildMobileMenu();
+      }catch(e){}
+
+      mm=mobileMenu();
+      if(mm && panel.parentNode!==mm) mm.appendChild(panel);
+
+      if(mm) mm.classList.add('show');
+      if(hb) hb.classList.add('open');
+
+      panel.classList.add('sc-search-mobile-panel');
+      panel.style.display='block';
+      setTimeout(function(){input.focus();},30);
+      return;
+    }
+
+    panel.style.display='block';
+    setTimeout(function(){input.focus();},20);
+  }
+
+  function closePanel(){
+    panel.style.display='none';
+  }
+
+  toggle.addEventListener('click',function(e){
+    /* Search lives outside #mobile-menu, so the Mobile Menu's document-level
+       outside-click handler would otherwise close the menu immediately. */
+    if(e){
+      e.preventDefault();
+      e.stopPropagation();
+      if(typeof e.stopImmediatePropagation==='function') e.stopImmediatePropagation();
+    }
+
+    var open=panel.style.display!=='none';
+    if(open) closePanel(); else openPanel();
+  });
+
+  function go(hit){
+    closePanel();
+
+    if(MODE==='preview'){
+      if(typeof window.__previewSwitchPage==='function'){
+        window.__previewSwitchPage(hit.pageId,hit.anchor||'');
+        return;
+      }
+      var previewLink=document.querySelector('[data-preview-page-id="'+hit.pageId+'"]');
+      if(previewLink){
+        previewLink.click();
+        if(hit.anchor){
+          setTimeout(function(){
+            var t=document.getElementById(hit.anchor);
+            if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
+          },80);
+        }
+        return;
+      }
+    }
+
+    var here=document.getElementById(hit.anchor||'');
+    if(hit.pageId===CURRENT_PAGE_ID && here){
+      here.scrollIntoView({behavior:'smooth',block:'start'});
+      return;
+    }
+
+    var route=(ROUTES && ROUTES[hit.pageId]) ? ROUTES[hit.pageId] : hit.url;
+    if(route){
+      var target=route + (hit.anchor ? '#'+encodeURIComponent(hit.anchor) : '');
+      window.location.assign(target);
+    }
+  }
+
+  function doSearch(){
+    var q=input.value.trim().toLowerCase();
+    results.innerHTML='';
+    if(!q) return;
+
+    var hits=INDEX.filter(function(hit){
+      return String(hit.text||'').toLowerCase().includes(q);
+    }).slice(0,30);
+
+    hits.forEach(function(hit){
+      var b=document.createElement('button');
+      b.type='button';
+      b.style.cssText='display:block;width:100%;text-align:left;border:0;background:transparent;padding:10px 8px;cursor:pointer;border-radius:10px;';
+
+      var title=document.createElement('strong');
+      title.textContent=hit.pageTitle||SEARCH_PAGE_LABEL;
+      title.style.cssText='display:block;font-size:12px;margin-bottom:2px;';
+
+      var excerpt=document.createElement('span');
+      excerpt.textContent=String(hit.text||'').length>110
+        ? String(hit.text||'').slice(0,110)+'…'
+        : String(hit.text||'');
+      excerpt.style.cssText='display:block;font-size:12px;opacity:.72;line-height:1.35;';
+
+      b.appendChild(title);
+      b.appendChild(excerpt);
+      b.addEventListener('click',function(){go(hit);});
+      results.appendChild(b);
+    });
+
+    if(!hits.length){
+      var d=document.createElement('div');
+      d.textContent=SEARCH_NO_RESULTS;
+      d.style.cssText='padding:10px 8px;opacity:.6;';
+      results.appendChild(d);
+    }
+  }
+
+  input.addEventListener('input',doSearch);
+
+  if(NAVBAR_MODE){
+    mountNavbarSearch();
+    window.addEventListener('resize',mountNavbarSearch);
+
+    /* Hamburger closes the mobile search panel together with the menu. */
+    var hb=hamburger();
+    if(hb){
+      hb.addEventListener('click',function(){
+        setTimeout(function(){
+          var mm=mobileMenu();
+          if(mm && !mm.classList.contains('show')) closePanel();
+        },0);
+      });
+    }
+  }
+})();
+</script>
+
+<style>
+#site-share-widget{position:fixed;left:22px;bottom:22px;z-index:920;font-family:inherit}
+#site-share-toggle{width:52px;height:52px;border:0;border-radius:50%;background:#fff;color:#111;box-shadow:0 8px 24px rgba(0,0,0,.22);cursor:pointer;display:grid;place-items:center}
+#site-share-panel{display:none;position:absolute;left:0;bottom:62px;width:min(280px,82vw);max-height:min(70vh,620px);overflow:auto;padding:10px;background:#fff;color:#111;border-radius:18px;box-shadow:0 12px 36px rgba(0,0,0,.25)}
+#site-share-panel.sc-open{display:block}.sc-share-action{width:100%;display:flex;align-items:center;gap:10px;border:0;background:transparent;color:inherit;padding:10px 12px;border-radius:12px;cursor:pointer;text-align:left;font:inherit}.sc-share-action:hover{background:rgba(0,0,0,.06)}.sc-share-action svg{width:20px;height:20px}
+@media(max-width:900px){#site-share-toggle{width:40px;height:40px}#site-share-toggle svg{width:20px;height:20px}#site-share-panel{bottom:50px}}
+</style>
+<div id="site-share-widget" data-excluded-pages="[]" data-share-permalink-map="{&quot;home&quot;:&quot;&quot;}" data-share-page-id="home"><button id="site-share-toggle" type="button" aria-label="Share"><span uk-icon="social"></span></button><div id="site-share-panel" role="dialog" aria-label="Share this page"><button type="button" class="sc-share-action" data-share-id="copy-link" data-share-action="copy-link" data-share-template=""><span uk-icon="copy"></span><span>Copy Link</span></button><button type="button" class="sc-share-action" data-share-id="facebook" data-share-action="url" data-share-template="https://www.facebook.com/sharer/sharer.php?u={url}"><span uk-icon="facebook"></span><span>Facebook</span></button><button type="button" class="sc-share-action" data-share-id="x" data-share-action="url" data-share-template="https://twitter.com/intent/tweet?url={url}&amp;text={title}"><span uk-icon="x"></span><span>X / Twitter</span></button><button type="button" class="sc-share-action" data-share-id="linkedin" data-share-action="url" data-share-template="https://www.linkedin.com/sharing/share-offsite/?url={url}"><span uk-icon="linkedin"></span><span>LinkedIn</span></button><button type="button" class="sc-share-action" data-share-id="whatsapp" data-share-action="url" data-share-template="https://wa.me/?text={title}%20{url}"><span uk-icon="whatsapp"></span><span>WhatsApp</span></button><button type="button" class="sc-share-action" data-share-id="telegram" data-share-action="url" data-share-template="https://t.me/share/url?url={url}&amp;text={title}"><span uk-icon="telegram"></span><span>Telegram</span></button><button type="button" class="sc-share-action" data-share-id="reddit" data-share-action="url" data-share-template="https://www.reddit.com/submit?url={url}&amp;title={title}"><span uk-icon="reddit"></span><span>Reddit</span></button><button type="button" class="sc-share-action" data-share-id="threads" data-share-action="url" data-share-template="https://www.threads.net/intent/post?text={title}%20{url}"><span uk-icon="threads"></span><span>Threads</span></button><button type="button" class="sc-share-action" data-share-id="pinterest" data-share-action="url" data-share-template="https://pinterest.com/pin/create/button/?url={url}&amp;description={title}"><span uk-icon="pinterest"></span><span>Pinterest</span></button><button type="button" class="sc-share-action" data-share-id="tumblr" data-share-action="url" data-share-template="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}"><span uk-icon="tumblr"></span><span>Tumblr</span></button><button type="button" class="sc-share-action" data-share-id="instagram" data-share-action="copy-open" data-share-template="https://www.instagram.com/"><span uk-icon="instagram"></span><span>Instagram</span></button><button type="button" class="sc-share-action" data-share-id="tiktok" data-share-action="copy-open" data-share-template="https://www.tiktok.com/"><span uk-icon="tiktok"></span><span>TikTok</span></button><button type="button" class="sc-share-action" data-share-id="email" data-share-action="email" data-share-template=""><span uk-icon="mail"></span><span>Email</span></button></div></div>
+<script>(function(){
+ var w=document.getElementById('site-share-widget'),t=document.getElementById('site-share-toggle'),p=document.getElementById('site-share-panel');if(!w||!t||!p)return;
+ var excluded=[];try{excluded=JSON.parse(w.getAttribute('data-excluded-pages')||'[]')}catch(e){}
+ var permalinkMap={};try{permalinkMap=JSON.parse(w.getAttribute('data-share-permalink-map')||'{}')}catch(e){}
+ var fixedPageId=String(w.getAttribute('data-share-page-id')||'');
+ function activePageId(){return String(window.__previewCurrentPageId||fixedPageId||'')}
+ function syncAllowed(){var id=activePageId();if(id)w.style.display=excluded.indexOf(id)>-1?'none':''}syncAllowed();if("export"==='preview')setInterval(syncAllowed,250);
+ t.addEventListener('click',function(e){e.stopPropagation();p.classList.toggle('sc-open')});document.addEventListener('click',function(e){if(!w.contains(e.target))p.classList.remove('sc-open')});
+ function currentLink(){return location.href}
+ function cleanCurrentLink(){return location.href.split('#')[0]+(location.hash&&location.hash.indexOf('#preview-page:')!==0?location.hash:'')}
+ function configuredPermalink(){var u=String(permalinkMap[activePageId()]||'').trim();return u||cleanCurrentLink()}
+ function openUrl(u){window.open(u,'_blank','noopener,noreferrer')}
+ function fallback(v){var a=document.createElement('textarea');a.value=v;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+ function copy(v,done){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(v).then(done).catch(function(){fallback(v);done()});else{fallback(v);done()}}
+ function templ(t,u,title){var raw=String(t||'').trim(),U=encodeURIComponent(u),T=encodeURIComponent(title),X=encodeURIComponent((title?title+' ':'')+u);if(!raw)return '';if(/{(?:url|title|text)}/i.test(raw))return raw.split('{url}').join(U).split('{title}').join(T).split('{text}').join(X);return raw+U}
+ p.addEventListener('click',function(e){var b=e.target.closest('[data-share-id]');if(!b)return;var action=b.getAttribute('data-share-action'),template=b.getAttribute('data-share-template')||'',url=cleanCurrentLink(),title=document.title||'';
+   if(action==='copy-permalink'){var old=b.innerHTML;copy(configuredPermalink(),function(){b.textContent='Permalink copied';setTimeout(function(){b.innerHTML=old;try{UIkit.update(b)}catch(e){}},1400)})}
+   else if(action==='copy-link'){var old2=b.innerHTML;copy(currentLink(),function(){b.textContent='Link copied';setTimeout(function(){b.innerHTML=old2;try{UIkit.update(b)}catch(e){}},1400)})}
+   else if(action==='email'){location.href='mailto:?subject='+encodeURIComponent(title)+'&body='+encodeURIComponent(title+'\n\n'+url)}
+   else if(action==='copy-open'){copy(url,function(){openUrl(template)})}
+   else if(action==='url'&&template){openUrl(templ(template,url,title))}
+ });
+})();</script>
+
+
+<script src="assets/js/uikit.min.js"></script>
+<script src="assets/js/uikit-icons.min.js"></script>
+<script>
 document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
   const mobileMenu = document.getElementById('mobile-menu');
   if (!mobileMenuToggle || !mobileMenu) return;
 
-  
-  
+  // If the lightweight Mobile Menu (Preview/Export) script already initialized,
+  // avoid binding a second controller (prevents open-then-immediate-close).
   if (typeof window.__rebuildMobileMenu === 'function') return;
 
-  
+  // Detect navbar container dynamically
   let dynamicNavContainer = document.getElementById('dynamic-navbar-container');
   if (!dynamicNavContainer) {
-    
+    // fallback for Preview / Export
     dynamicNavContainer = document.querySelector('nav.uk-navbar-container');
   }
-  if (!dynamicNavContainer) return; 
+  if (!dynamicNavContainer) return; // no navbar found
 
   let menuBuilt = false;
 
-  
+  // Helpers
   const isSmallScreen = () => window.innerWidth <= 1024;
   const isMenuOpen = () => mobileMenu.classList.contains('show');
 
   const isNavbarEnabled = () => {
-    
+    // Editor: checkbox enabled
     const enableNavbarCheckbox = document.getElementById('enable-navbar');
-    return enableNavbarCheckbox ? enableNavbarCheckbox.checked : true; 
+    return enableNavbarCheckbox ? enableNavbarCheckbox.checked : true; // Preview: always enabled
   };
 
-  
+  // Populate mobile menu
   function populateMobileMenu(force = false) {
     if (!force && (menuBuilt || isMenuOpen())) return;
 
     const nav = dynamicNavContainer.querySelector('ul.navbar-scroll');
     if (!nav || !mobileMenu) return;
 
-    
+    // Update colors
     const navbarBg = getComputedStyle(nav.parentElement || nav).backgroundColor;
     const navbarText = getComputedStyle(nav).color;
     document.documentElement.style.setProperty('--navbar-bg-color', navbarBg);
@@ -175,7 +1562,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menuBuilt = true;
   }
 
-  
+  // Open / Close Menu
   function openMobileMenu() {
     populateMobileMenu(true);
     mobileMenu.classList.add('show');
@@ -188,11 +1575,11 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenuToggle.classList.remove('open');
     mobileMenu.setAttribute('aria-hidden', 'true');
     setTimeout(() => {
-      menuBuilt = false; 
-    }, 350); 
+      menuBuilt = false; // rebuild next time
+    }, 350); // match CSS transition
   }
 
-  
+  // Update visibility
   function updateMobileMenuVisibility() {
     if (isNavbarEnabled() && isSmallScreen()) {
       mobileMenuToggle.style.display = 'flex';
@@ -202,7 +1589,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  
+  // MutationObserver to detect dynamic changes in navbar
   if (dynamicNavContainer) {
     const observer = new MutationObserver(() => {
       if (isMenuOpen()) return;
@@ -212,7 +1599,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(dynamicNavContainer, { childList: true, subtree: false });
   }
 
-  
+  // Events
   mobileMenuToggle.addEventListener('click', () => {
     isMenuOpen() ? closeMobileMenu() : openMobileMenu();
   });
@@ -225,33 +1612,241 @@ document.addEventListener('DOMContentLoaded', () => {
     updateMobileMenuVisibility();
   });
 
-  
+  // Initial setup
   populateMobileMenu(true);
   updateMobileMenuVisibility();
 });
-</script><script>
+</script>
+<script>
+/* CORE universal local-service notice
+   Works in Preview/blob:, exported file:// pages, dynamic Lightboxes,
+   Slideshow, Add Video, and same-origin/srcdoc Embed documents. */
+(function(){
+  function isLocalContext(win){
+    try {
+      var p=String((win||window).location.protocol||'');
+      return !(p === 'http:' || p === 'https:');
+    } catch(e) {
+      return true;
+    }
+  }
+
+  function isYouTubeSrc(src){
+    var s=String(src||'').toLowerCase();
+    return s.indexOf('youtube.com/embed/') !== -1 ||
+           s.indexOf('youtube-nocookie.com/embed/') !== -1 ||
+           s.indexOf('youtube.com/watch?') !== -1 ||
+           s.indexOf('youtu.be/') !== -1;
+  }
+
+  function warningText(){
+    return '<span style="display:block;white-space:normal;">YouTube does not allow local playback.<br>Upload the website to a server to play this video.</span>';
+  }
+
+  function ensurePositioned(el, win){
+    try {
+      if ((win||window).getComputedStyle(el).position === 'static') el.style.position='relative';
+    } catch(e) {
+      if (!el.style.position) el.style.position='relative';
+    }
+  }
+
+  function decorateYouTubeFrame(frame, doc, win){
+    if (!frame || frame.dataset.scLocalYoutubeDone === '1') return;
+    var src=String(frame.getAttribute('src')||'');
+    if (!isYouTubeSrc(src)) return;
+
+    frame.dataset.scLocalYoutubeDone='1';
+
+    var isFull = frame.classList.contains('sc-youtube-fullscreen-player');
+    var isSlider = frame.classList.contains('sc-slider-youtube-player');
+    var inLightbox = !!frame.closest('.uk-lightbox');
+
+    var host = frame.parentElement;
+    if (!host) return;
+    ensurePositioned(host, win);
+
+    // Preserve the errored player so users understand this is a local-playback limitation.
+    if (isFull || isSlider) {
+      frame.style.filter='blur(14px)';
+      frame.style.opacity='.55';
+    } else if (inLightbox) {
+      frame.style.opacity='.42';
+    } else {
+      frame.style.opacity='.48';
+    }
+
+    var notice=doc.createElement('div');
+    notice.className='sc-runtime-youtube-warning';
+    notice.innerHTML=warningText();
+    notice.style.boxSizing='border-box';
+    notice.style.textAlign='center';
+    notice.style.color='#fff';
+    notice.style.fontWeight='800';
+    notice.style.lineHeight='1.25';
+    notice.style.letterSpacing='.01em';
+    notice.style.pointerEvents='none';
+
+    if (isFull || isSlider) {
+      // Fullscreen Add Video + Slideshow: keep the player visible but blurred,
+      // and place the warning at the top so headings/subheadings/buttons remain visible.
+      notice.style.cssText += ';position:absolute;inset:0;display:flex;align-items:flex-start;justify-content:center;padding:100px 28px 28px;background:transparent;font-size:clamp(16px,2vw,28px);z-index:2147483000;';
+    } else if (inLightbox) {
+      notice.style.cssText += ';position:absolute;top:18px;left:50%;transform:translateX(-50%);padding:12px 18px;background:rgba(255,145,0,.92);border-radius:12px;font-size:clamp(13px,1.25vw,18px);max-width:min(760px,calc(100% - 32px));width:max-content;z-index:2147483000;';
+    } else {
+      // Regular Add Video / custom Embed.
+      notice.style.cssText += ';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:28px;background:rgba(255,145,0,.92);font-size:clamp(16px,2vw,28px);z-index:2147483000;';
+    }
+
+    host.appendChild(notice);
+  }
+
+  function scanDocument(doc, win){
+    if (!doc || !isLocalContext(win)) return;
+
+    try {
+      doc.querySelectorAll('.sc-formspree-local-warning').forEach(function(notice){
+        notice.style.display='flex';
+      });
+    } catch(e) {}
+
+    try {
+      doc.querySelectorAll('iframe').forEach(function(frame){
+        var src=String(frame.getAttribute('src')||'');
+
+        // Direct YouTube iframe in Add Video / Slider / Lightbox / custom markup.
+        if (isYouTubeSrc(src)) decorateYouTubeFrame(frame,doc,win);
+
+        // Same-origin/srcdoc Embed: scan its inner document too.
+        try {
+          var innerDoc=frame.contentDocument;
+          var innerWin=frame.contentWindow;
+          if (innerDoc && innerDoc.documentElement) scanDocument(innerDoc,innerWin);
+        } catch(e) {}
+      });
+    } catch(e) {}
+  }
+
+  function scanAll(){
+    scanDocument(document,window);
+  }
+
+  document.addEventListener('submit',function(e){
+    if(!isLocalContext(window)) return;
+    var form=e.target;
+    if(form && form.matches && form.matches('.sc-generated-form[action*="formspree.io"]')){
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  },true);
+
+  document.addEventListener('DOMContentLoaded',function(){
+    scanAll();
+    setTimeout(scanAll,100);
+    setTimeout(scanAll,500);
+  });
+
+  window.addEventListener('load',function(){
+    scanAll();
+    setTimeout(scanAll,300);
+    setTimeout(scanAll,1200);
+  });
+
+  // UIkit Lightbox and asynchronously generated Embed/Slider iframe content.
+  document.addEventListener('click',function(){
+    setTimeout(scanAll,50);
+    setTimeout(scanAll,250);
+    setTimeout(scanAll,700);
+  },true);
+
+  try {
+    new MutationObserver(function(){
+      scanAll();
+    }).observe(document.documentElement,{childList:true,subtree:true});
+  } catch(e) {}
+
+  // Covers iframe navigations / late srcdoc loading without aggressive polling.
+  setInterval(scanAll,1500);
+})();
+</script>
+
+<script>
+(function(){
+  function shuffle(el){
+    if(!el)return;
+    var a=Array.prototype.slice.call(el.children||[]);
+    for(var i=a.length-1;i>0;i--){
+      var j=Math.floor(Math.random()*(i+1));
+      var t=a[i];a[i]=a[j];a[j]=t;
+    }
+    a.forEach(function(child){el.appendChild(child);});
+  }
+  function run(){
+    document.querySelectorAll('.sc-random-gallery').forEach(function(section){
+      var grid=section.querySelector('[uk-lightbox][uk-grid],[uk-grid][uk-lightbox]');
+      shuffle(grid);
+    });
+    document.querySelectorAll('.sc-random-grid').forEach(function(section){
+      var grids=Array.prototype.slice.call(section.querySelectorAll('[uk-grid]'));
+      var grid=grids.find(function(g){return g.children&&g.children.length>1;});
+      shuffle(grid);
+    });
+    document.querySelectorAll('.sc-random-slider').forEach(function(section){
+      shuffle(section.querySelector('.uk-slider-items'));
+    });
+    try{if(window.UIkit)UIkit.update(document);}catch(e){}
+  }
+  document.addEventListener('DOMContentLoaded',run);
+})();
+</script>
+<script>
+(function(){
+  function protect(root){
+    if(!root||!root.querySelectorAll)return;
+    function mark(el){
+      if(!el||el.nodeType!==1)return;
+      el.setAttribute('translate','no');
+      if(el.classList)el.classList.add('notranslate');
+    }
+    try{
+      if(root.matches&&root.matches('[uk-icon],[data-uk-icon],.uk-icon,.uk-icon-button'))mark(root);
+      root.querySelectorAll('[uk-icon],[data-uk-icon],.uk-icon,.uk-icon-button').forEach(mark);
+    }catch(e){}
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    protect(document);
+    try{
+      new MutationObserver(function(ms){
+        ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n&&n.nodeType===1)protect(n);});});
+      }).observe(document.documentElement,{childList:true,subtree:true});
+    }catch(e){}
+  });
+})();
+</script>
+
+<script>
 (function(){
   function bind(el){
     if(!el || el.__boundScrollEnh) return;
     el.__boundScrollEnh = true;
 
-    
+    // Wheel -> horizontal scroll (mouse wheel support)
     el.addEventListener('wheel', function(e){
-      
+      // Only convert vertical wheel when horizontal is the intent
       if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
         el.scrollLeft += e.deltaY;
         e.preventDefault();
       }
     }, {passive:false});
 
-    
+    // Drag to scroll (mouse/touchpad)
     var isDown=false, startX=0, startLeft=0, activePointerId=null;
     el.addEventListener('pointerdown', function(e){
-      
+      // Only for primary button / touch
       if (e.pointerType === 'mouse' && e.button !== 0) return;
 
-      
-      
+      // IMPORTANT: don't hijack clicks on interactive elements inside the scroller
+      // (eg. DropNav parent buttons). Let those receive normal pointer/click events.
       if (e.target && (e.target.closest('a') || e.target.closest('button') || e.target.closest('input') || e.target.closest('select') || e.target.closest('textarea'))) return;
 
       isDown = true;
@@ -264,7 +1859,7 @@ document.addEventListener('DOMContentLoaded', () => {
     el.addEventListener('pointermove', function(e){
       if(!isDown || (activePointerId !== null && e.pointerId !== activePointerId)) return;
       var dx = e.clientX - startX;
-      
+      // Invert so dragging left moves content right
       el.scrollLeft = startLeft - dx;
     });
     function end(e){
@@ -278,12 +1873,47 @@ document.addEventListener('DOMContentLoaded', () => {
     el.addEventListener('pointercancel', end);
     el.addEventListener('pointerleave', end);
 
-    
+    // Avoid text selection while dragging
     el.addEventListener('dragstart', function(e){ e.preventDefault(); });
+  }
+
+  function syncHeadingActive(){
+    var nav=document.querySelector('.navbar-scroll[data-sc-preview-nav="1"]');
+    if(!nav) return;
+
+    var headingLinks=Array.from(nav.querySelectorAll('.sc-page-heading-link > a[href^="#"]'));
+    if(!headingLinks.length) return;
+
+    var offset=110;
+    var active=null;
+    var best=-Infinity;
+
+    headingLinks.forEach(function(a){
+      var id=(a.getAttribute('href')||'').slice(1);
+      if(!id) return;
+      var target=document.getElementById(id);
+      if(!target) return;
+
+      var top=target.getBoundingClientRect().top-offset;
+      if(top<=0 && top>best){
+        best=top;
+        active=a;
+      }
+    });
+
+    // Only heading links participate in scroll state.
+    // Page links are NEVER promoted as the "next" scroll target.
+    headingLinks.forEach(function(a){
+      a.classList.toggle('uk-active',a===active);
+    });
   }
 
   function init(){
     document.querySelectorAll('.dn-scroll, .navbar-scroll').forEach(bind);
+    syncHeadingActive();
+    window.addEventListener('scroll',syncHeadingActive,{passive:true});
+    window.addEventListener('resize',syncHeadingActive);
+    window.__scSyncHeadingActive=syncHeadingActive;
   }
 
   if (document.readyState === 'loading') {
